@@ -1,0 +1,2050 @@
+[
+  {
+    "id": "SKILL_CUSTOMER_HANDLING",
+    "canonicalName": "Customer Handling",
+    "aliases": [
+      "customer handle karna",
+      "customer handling",
+      "customer se baat karna",
+      "customer service",
+      "customer support",
+      "dealing with customers",
+      "grahak sambhalna",
+      "grahak se baat",
+      "handling customers"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [],
+    "learnHours": 12,
+    "learnCostBand": "free",
+    "verifiableBy": "Short role-play with a mock customer"
+  },
+  {
+    "id": "SKILL_SALES_FLOOR",
+    "canonicalName": "Sales (Floor / Counter)",
+    "aliases": [
+      "bechna",
+      "bikri",
+      "counter sales",
+      "floor sales",
+      "sales",
+      "salesman",
+      "saleswoman",
+      "saman bechna",
+      "selling",
+      "shop sales"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "free",
+    "verifiableBy": "Mock sales conversation, objection handling"
+  },
+  {
+    "id": "SKILL_UPSELLING",
+    "canonicalName": "Upselling & Cross-selling",
+    "aliases": [
+      "cross selling",
+      "extra saman bechna",
+      "suggestive selling",
+      "upsell",
+      "upselling"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_SALES_FLOOR"
+    ],
+    "learnHours": 10,
+    "learnCostBand": "free",
+    "verifiableBy": "Mock scenario: attach a second product to a sale"
+  },
+  {
+    "id": "SKILL_PRODUCT_KNOWLEDGE",
+    "canonicalName": "Product Knowledge",
+    "aliases": [
+      "item knowledge",
+      "knows products",
+      "product ki jankari",
+      "product knowledge",
+      "saman ki jankari"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Quiz on a given product category"
+  },
+  {
+    "id": "SKILL_INVENTORY_MGMT",
+    "canonicalName": "Inventory Management",
+    "aliases": [
+      "godown stock",
+      "inventory",
+      "inventory management",
+      "maal ka hisaab",
+      "stock",
+      "stock check",
+      "stock keeping",
+      "stock maintain",
+      "stock rakhna",
+      "stock register",
+      "stock sambhalna"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "Stock reconciliation exercise"
+  },
+  {
+    "id": "SKILL_STOCK_AUDIT",
+    "canonicalName": "Stock Audit & Reconciliation",
+    "aliases": [
+      "physical stock count",
+      "stock audit",
+      "stock milana",
+      "stock reconciliation",
+      "stock verification"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "learnHours": 18,
+    "learnCostBand": "low",
+    "verifiableBy": "Find discrepancies in a sample stock sheet"
+  },
+  {
+    "id": "SKILL_VISUAL_MERCH",
+    "canonicalName": "Visual Merchandising",
+    "aliases": [
+      "display",
+      "merchandising",
+      "product display",
+      "saman sajana",
+      "shelf display",
+      "visual merchandising"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [],
+    "learnHours": 20,
+    "learnCostBand": "low",
+    "verifiableBy": "Before/after photos of a shelf arrangement"
+  },
+  {
+    "id": "SKILL_RETAIL_OPS",
+    "canonicalName": "Retail Operations",
+    "aliases": [
+      "dukan chalana",
+      "dukan ka kaam",
+      "retail",
+      "retail operations",
+      "shop management",
+      "shop operations",
+      "store operations"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [],
+    "learnHours": 30,
+    "learnCostBand": "low",
+    "verifiableBy": "Describe open-to-close duties for a shop"
+  },
+  {
+    "id": "SKILL_NEGOTIATION",
+    "canonicalName": "Negotiation",
+    "aliases": [
+      "bargaining",
+      "bhav tay karna",
+      "mol bhav",
+      "negotiation",
+      "rate negotiate"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Mock price negotiation"
+  },
+  {
+    "id": "SKILL_FIELD_SALES",
+    "canonicalName": "Field Sales / Door-to-door",
+    "aliases": [
+      "door to door",
+      "field sales",
+      "field work sales",
+      "ghar ghar jakar bechna",
+      "marketing field",
+      "outdoor sales"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_SALES_FLOOR"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "free",
+    "verifiableBy": "Territory plan and cold-approach script"
+  },
+  {
+    "id": "SKILL_TELECALLING",
+    "canonicalName": "Telecalling",
+    "aliases": [
+      "call karna",
+      "calling",
+      "cold calling",
+      "phone calls",
+      "phone pe baat",
+      "tele calling",
+      "telecalling",
+      "telesales"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Recorded mock call"
+  },
+  {
+    "id": "SKILL_COMPLAINT_HANDLING",
+    "canonicalName": "Complaint Handling",
+    "aliases": [
+      "complaint handling",
+      "customer complaints",
+      "grievance",
+      "problem solve karna customer ka",
+      "shikayat sambhalna"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "learnHours": 12,
+    "learnCostBand": "free",
+    "verifiableBy": "Handle an escalated mock complaint"
+  },
+  {
+    "id": "SKILL_CASH_HANDLING",
+    "canonicalName": "Cash Handling",
+    "aliases": [
+      "cash",
+      "cash counter",
+      "cash counting",
+      "cash handling",
+      "cash lena dena",
+      "galla",
+      "handling money",
+      "paisa",
+      "paise sambhalna"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [],
+    "learnHours": 8,
+    "learnCostBand": "free",
+    "verifiableBy": "Cash drawer balancing exercise"
+  },
+  {
+    "id": "SKILL_BILLING_MANUAL",
+    "canonicalName": "Manual Billing",
+    "aliases": [
+      "bill banana",
+      "bill likhna",
+      "bill making",
+      "billing",
+      "bills",
+      "invoicing",
+      "manual billing"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_ARITHMETIC"
+    ],
+    "learnHours": 10,
+    "learnCostBand": "free",
+    "verifiableBy": "Write a correct bill for a 6-item basket"
+  },
+  {
+    "id": "SKILL_BILLING_SOFTWARE",
+    "canonicalName": "Billing Software / POS",
+    "aliases": [
+      "bill software",
+      "billing counter software",
+      "billing machine",
+      "billing software",
+      "billing system",
+      "computer billing",
+      "point of sale",
+      "pos",
+      "pos billing",
+      "pos machine",
+      "software billing",
+      "swipe machine"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_BILLING_MANUAL"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "low",
+    "verifiableBy": "Complete a sale on a POS terminal"
+  },
+  {
+    "id": "SKILL_ARITHMETIC",
+    "canonicalName": "Practical Arithmetic",
+    "aliases": [
+      "arithmetic",
+      "basic maths",
+      "calculation",
+      "calculations",
+      "ganit",
+      "hisaab",
+      "hisab kitab",
+      "maths"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Percentage, discount and change-making test"
+  },
+  {
+    "id": "SKILL_BOOKKEEPING",
+    "canonicalName": "Basic Bookkeeping",
+    "aliases": [
+      "accounting basics",
+      "accounts",
+      "bahi khata",
+      "book keeping",
+      "bookkeeping",
+      "daybook",
+      "khata",
+      "khata likhna",
+      "ledger"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_ARITHMETIC"
+    ],
+    "learnHours": 35,
+    "learnCostBand": "low",
+    "verifiableBy": "Maintain a day-book for a week"
+  },
+  {
+    "id": "SKILL_TALLY_BASIC",
+    "canonicalName": "Tally (Basic)",
+    "aliases": [
+      "tally",
+      "tally basic",
+      "tally chalana",
+      "tally erp",
+      "tally erp 9",
+      "tally prime",
+      "tally software"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "learnHours": 40,
+    "learnCostBand": "medium",
+    "verifiableBy": "Create vouchers and a trial balance in Tally"
+  },
+  {
+    "id": "SKILL_TALLY_ADVANCED",
+    "canonicalName": "Tally (Advanced)",
+    "aliases": [
+      "advanced tally",
+      "tally advanced",
+      "tally full",
+      "tally reports"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_TALLY_BASIC"
+    ],
+    "learnHours": 45,
+    "learnCostBand": "medium",
+    "verifiableBy": "Generate P&L and balance sheet in Tally"
+  },
+  {
+    "id": "SKILL_GST_FILING",
+    "canonicalName": "GST Billing & Filing",
+    "aliases": [
+      "gst",
+      "gst billing",
+      "gst filing",
+      "gst invoice",
+      "gst ka kaam",
+      "gst return",
+      "tax filing"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_TALLY_BASIC"
+    ],
+    "learnHours": 35,
+    "learnCostBand": "medium",
+    "verifiableBy": "Prepare a GSTR-1 style return from sample invoices"
+  },
+  {
+    "id": "SKILL_PAYROLL_BASIC",
+    "canonicalName": "Basic Payroll",
+    "aliases": [
+      "attendance salary",
+      "payroll",
+      "salary banana",
+      "salary calculation",
+      "tankha ka hisaab",
+      "wages"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "Compute monthly wages with deductions"
+  },
+  {
+    "id": "SKILL_UPI_DIGITAL_PAY",
+    "canonicalName": "Digital Payments (UPI/QR)",
+    "aliases": [
+      "cashless payment",
+      "digital payment",
+      "digital payments",
+      "google pay",
+      "gpay",
+      "online payment",
+      "online payments",
+      "paytm",
+      "phonepe",
+      "qr code payment",
+      "scanner payment",
+      "upi",
+      "upi payments"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [],
+    "learnHours": 5,
+    "learnCostBand": "free",
+    "verifiableBy": "Process and verify a UPI transaction"
+  },
+  {
+    "id": "SKILL_CREDIT_LEDGER",
+    "canonicalName": "Credit / Udhaar Ledger",
+    "aliases": [
+      "credit book",
+      "credit ledger",
+      "customer credit",
+      "udhaar",
+      "udhar khata"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "learnHours": 12,
+    "learnCostBand": "free",
+    "verifiableBy": "Maintain and reconcile a customer credit book"
+  },
+  {
+    "id": "SKILL_PURCHASE_ORDERS",
+    "canonicalName": "Purchase & Vendor Orders",
+    "aliases": [
+      "maal mangwana",
+      "ordering",
+      "po",
+      "purchase",
+      "purchase order",
+      "supplier order",
+      "vendor orders"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "low",
+    "verifiableBy": "Raise a PO and match it to an invoice"
+  },
+  {
+    "id": "SKILL_SMARTPHONE_LITERACY",
+    "canonicalName": "Smartphone Literacy",
+    "aliases": [
+      "android",
+      "mobile",
+      "mobile chalana",
+      "mobile literacy",
+      "phone chalana",
+      "phone use",
+      "smartphone"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [],
+    "learnHours": 8,
+    "learnCostBand": "free",
+    "verifiableBy": "Navigate apps, files and settings unaided"
+  },
+  {
+    "id": "SKILL_COMPUTER_BASICS",
+    "canonicalName": "Computer Basics",
+    "aliases": [
+      "basic computer",
+      "computer",
+      "computer basics",
+      "computer chalana",
+      "computer knowledge",
+      "laptop use",
+      "ms office basic",
+      "pc"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "File management and typing test"
+  },
+  {
+    "id": "SKILL_TYPING_ENGLISH",
+    "canonicalName": "English Typing",
+    "aliases": [
+      "english typing",
+      "keyboard",
+      "typing",
+      "typing speed",
+      "typist"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "learnHours": 30,
+    "learnCostBand": "free",
+    "verifiableBy": "30 WPM typing test"
+  },
+  {
+    "id": "SKILL_TYPING_TAMIL",
+    "canonicalName": "Tamil Typing",
+    "aliases": [
+      "regional typing",
+      "tamil keyboard",
+      "tamil typing"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "learnHours": 35,
+    "learnCostBand": "free",
+    "verifiableBy": "Tamil typing test"
+  },
+  {
+    "id": "SKILL_EXCEL_BASIC",
+    "canonicalName": "Excel (Basic)",
+    "aliases": [
+      "excel",
+      "excel banana",
+      "excel basic",
+      "excel chalana",
+      "excel sheet",
+      "excel sheets",
+      "ms excel",
+      "sheets",
+      "spreadsheet"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "free",
+    "verifiableBy": "Build a formatted sheet with SUM/IF"
+  },
+  {
+    "id": "SKILL_EXCEL_ADVANCED",
+    "canonicalName": "Excel (Advanced)",
+    "aliases": [
+      "advanced excel",
+      "excel advanced",
+      "excel formulas",
+      "excel pro",
+      "pivot table",
+      "vlookup"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_EXCEL_BASIC"
+    ],
+    "learnHours": 40,
+    "learnCostBand": "low",
+    "verifiableBy": "Pivot table and VLOOKUP exercise"
+  },
+  {
+    "id": "SKILL_WORD_PROCESSING",
+    "canonicalName": "Word Processing",
+    "aliases": [
+      "document banana",
+      "ms word",
+      "typing letters",
+      "word",
+      "word processing"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Format a two-page letter"
+  },
+  {
+    "id": "SKILL_DATA_ENTRY",
+    "canonicalName": "Data Entry",
+    "aliases": [
+      "computer entry",
+      "data entry",
+      "data entry operator",
+      "data feeding",
+      "deo",
+      "entry work"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_TYPING_ENGLISH"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "free",
+    "verifiableBy": "Enter 100 records with <2% error"
+  },
+  {
+    "id": "SKILL_EMAIL_COMMS",
+    "canonicalName": "Email Communication",
+    "aliases": [
+      "e mail",
+      "email",
+      "email writing",
+      "gmail",
+      "mail karna",
+      "mailing"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "learnHours": 12,
+    "learnCostBand": "free",
+    "verifiableBy": "Draft a professional email"
+  },
+  {
+    "id": "SKILL_WHATSAPP_BUSINESS",
+    "canonicalName": "WhatsApp Business",
+    "aliases": [
+      "wa business",
+      "whatsapp",
+      "whatsapp business",
+      "whatsapp marketing",
+      "whatsapp pe order"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "learnHours": 8,
+    "learnCostBand": "free",
+    "verifiableBy": "Set up a catalogue and broadcast list"
+  },
+  {
+    "id": "SKILL_SOCIAL_MEDIA_BASIC",
+    "canonicalName": "Social Media for Business",
+    "aliases": [
+      "facebook",
+      "fb page",
+      "insta",
+      "instagram",
+      "reels",
+      "social media",
+      "social media marketing"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "free",
+    "verifiableBy": "Run a shop page for two weeks"
+  },
+  {
+    "id": "SKILL_PHOTO_EDITING_BASIC",
+    "canonicalName": "Basic Photo Editing",
+    "aliases": [
+      "canva",
+      "image editing",
+      "photo edit karna",
+      "photo editing",
+      "photoshop basic",
+      "poster banana"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "learnHours": 18,
+    "learnCostBand": "free",
+    "verifiableBy": "Produce five edited product photos"
+  },
+  {
+    "id": "SKILL_ONLINE_FORMS",
+    "canonicalName": "Online Forms & Portals",
+    "aliases": [
+      "form bharna",
+      "form filling",
+      "online application",
+      "online form",
+      "online form bharna",
+      "portal"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "learnHours": 10,
+    "learnCostBand": "free",
+    "verifiableBy": "Complete a government portal application"
+  },
+  {
+    "id": "SKILL_ECOM_LISTING",
+    "canonicalName": "E-commerce Listing",
+    "aliases": [
+      "amazon listing",
+      "e commerce",
+      "ecommerce",
+      "flipkart listing",
+      "meesho",
+      "online listing",
+      "online selling"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_PHOTO_EDITING_BASIC"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "List 10 products with correct attributes"
+  },
+  {
+    "id": "SKILL_PRINTER_SCANNER",
+    "canonicalName": "Printer & Scanner Operation",
+    "aliases": [
+      "photocopy",
+      "print nikalna",
+      "printer",
+      "scanner",
+      "scanning",
+      "xerox",
+      "xerox machine"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "learnHours": 6,
+    "learnCostBand": "free",
+    "verifiableBy": "Scan, print and photocopy a document set"
+  },
+  {
+    "id": "SKILL_CCTV_MONITORING",
+    "canonicalName": "CCTV Monitoring",
+    "aliases": [
+      "camera dekhna",
+      "cctv",
+      "cctv monitoring",
+      "security camera",
+      "surveillance"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [],
+    "learnHours": 10,
+    "learnCostBand": "free",
+    "verifiableBy": "Review footage and log an incident"
+  },
+  {
+    "id": "SKILL_FILE_RECORDKEEPING",
+    "canonicalName": "Filing & Recordkeeping",
+    "aliases": [
+      "documentation",
+      "file rakhna",
+      "file recordkeeping",
+      "filing",
+      "paperwork",
+      "record keeping",
+      "recordkeeping",
+      "records",
+      "records management"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [],
+    "learnHours": 12,
+    "learnCostBand": "free",
+    "verifiableBy": "Organise and retrieve from a filing system"
+  },
+  {
+    "id": "SKILL_SPOKEN_TAMIL",
+    "canonicalName": "Spoken Tamil",
+    "aliases": [
+      "spoken tamil",
+      "tamil",
+      "tamil bolna",
+      "tamil speaking",
+      "tamizh"
+    ],
+    "category": "communication_language",
+    "prerequisites": [],
+    "learnHours": 0,
+    "learnCostBand": "free",
+    "verifiableBy": "Conversational assessment"
+  },
+  {
+    "id": "SKILL_SPOKEN_HINDI",
+    "canonicalName": "Spoken Hindi",
+    "aliases": [
+      "hindi",
+      "hindi bolna",
+      "hindi speaking",
+      "spoken hindi"
+    ],
+    "category": "communication_language",
+    "prerequisites": [],
+    "learnHours": 0,
+    "learnCostBand": "free",
+    "verifiableBy": "Conversational assessment"
+  },
+  {
+    "id": "SKILL_SPOKEN_ENGLISH_BASIC",
+    "canonicalName": "Spoken English (Basic)",
+    "aliases": [
+      "basic english",
+      "english",
+      "english bolna",
+      "english communication",
+      "english speaking",
+      "spoken english"
+    ],
+    "category": "communication_language",
+    "prerequisites": [],
+    "learnHours": 120,
+    "learnCostBand": "medium",
+    "verifiableBy": "A2-level conversational assessment"
+  },
+  {
+    "id": "SKILL_SPOKEN_ENGLISH_FLUENT",
+    "canonicalName": "Spoken English (Fluent)",
+    "aliases": [
+      "advanced english",
+      "english fluency",
+      "fluent english",
+      "good english"
+    ],
+    "category": "communication_language",
+    "prerequisites": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "learnHours": 150,
+    "learnCostBand": "medium",
+    "verifiableBy": "B2-level conversational assessment"
+  },
+  {
+    "id": "SKILL_SPOKEN_TELUGU",
+    "canonicalName": "Spoken Telugu",
+    "aliases": [
+      "spoken telugu",
+      "telugu",
+      "telugu bolna"
+    ],
+    "category": "communication_language",
+    "prerequisites": [],
+    "learnHours": 0,
+    "learnCostBand": "free",
+    "verifiableBy": "Conversational assessment"
+  },
+  {
+    "id": "SKILL_WRITTEN_ENGLISH",
+    "canonicalName": "Written English",
+    "aliases": [
+      "english likhna",
+      "english writing",
+      "writing",
+      "written english"
+    ],
+    "category": "communication_language",
+    "prerequisites": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "learnHours": 60,
+    "learnCostBand": "low",
+    "verifiableBy": "Write a one-page report"
+  },
+  {
+    "id": "SKILL_COMMUNICATION",
+    "canonicalName": "Interpersonal Communication",
+    "aliases": [
+      "achi baat cheet",
+      "baat karna",
+      "communication",
+      "communication skills",
+      "interpersonal",
+      "soft skills",
+      "talking"
+    ],
+    "category": "communication_language",
+    "prerequisites": [],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Structured interview assessment"
+  },
+  {
+    "id": "SKILL_TEAM_COORDINATION",
+    "canonicalName": "Team Coordination",
+    "aliases": [
+      "collaboration",
+      "coordination",
+      "team coordination",
+      "team ke saath kaam",
+      "team work",
+      "teamwork"
+    ],
+    "category": "communication_language",
+    "prerequisites": [
+      "SKILL_COMMUNICATION"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "free",
+    "verifiableBy": "Coordinate a 3-person mock task"
+  },
+  {
+    "id": "SKILL_SUPERVISION",
+    "canonicalName": "Team Supervision",
+    "aliases": [
+      "incharge",
+      "leadership",
+      "managing people",
+      "managing staff",
+      "staff sambhalna",
+      "staff supervision",
+      "supervising staff",
+      "supervision",
+      "supervisor",
+      "team lead",
+      "team supervision"
+    ],
+    "category": "communication_language",
+    "prerequisites": [
+      "SKILL_TEAM_COORDINATION"
+    ],
+    "learnHours": 40,
+    "learnCostBand": "low",
+    "verifiableBy": "Roster and delegate for a shift"
+  },
+  {
+    "id": "SKILL_TRAINING_OTHERS",
+    "canonicalName": "Training Others",
+    "aliases": [
+      "mentoring",
+      "onboarding",
+      "sikhana",
+      "teaching staff",
+      "training",
+      "training dena"
+    ],
+    "category": "communication_language",
+    "prerequisites": [
+      "SKILL_COMMUNICATION"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "free",
+    "verifiableBy": "Deliver a 15-minute task demonstration"
+  },
+  {
+    "id": "SKILL_FOOD_PREP",
+    "canonicalName": "Food Preparation",
+    "aliases": [
+      "chef work",
+      "cook",
+      "cooking",
+      "food prep",
+      "food preparation",
+      "khana banana",
+      "kitchen work"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [],
+    "learnHours": 40,
+    "learnCostBand": "low",
+    "verifiableBy": "Prepare three items to a standard recipe"
+  },
+  {
+    "id": "SKILL_FOOD_HYGIENE",
+    "canonicalName": "Food Safety & Hygiene",
+    "aliases": [
+      "cleanliness food",
+      "food hygiene",
+      "food safety",
+      "fssai",
+      "hygiene"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [],
+    "learnHours": 12,
+    "learnCostBand": "low",
+    "verifiableBy": "FSSAI basic hygiene checklist"
+  },
+  {
+    "id": "SKILL_BAKERY_COUNTER",
+    "canonicalName": "Bakery Counter Service",
+    "aliases": [
+      "bakery",
+      "bakery counter",
+      "bakery pe kaam",
+      "bakery work",
+      "cake shop",
+      "counter bakery"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "learnHours": 18,
+    "learnCostBand": "free",
+    "verifiableBy": "Handle a counter rush, packing and billing"
+  },
+  {
+    "id": "SKILL_BARISTA",
+    "canonicalName": "Beverage / Barista Skills",
+    "aliases": [
+      "barista",
+      "beverages",
+      "chai banana",
+      "coffee",
+      "coffee banana",
+      "juice",
+      "tea making"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "learnHours": 30,
+    "learnCostBand": "low",
+    "verifiableBy": "Prepare six standard beverages"
+  },
+  {
+    "id": "SKILL_TABLE_SERVICE",
+    "canonicalName": "Table Service",
+    "aliases": [
+      "server",
+      "serving",
+      "steward",
+      "table pe serve",
+      "table service",
+      "waiter",
+      "waiter ka kaam"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "free",
+    "verifiableBy": "Serve a four-cover table"
+  },
+  {
+    "id": "SKILL_ORDER_MANAGEMENT",
+    "canonicalName": "Order Management",
+    "aliases": [
+      "kot",
+      "order handle karna",
+      "order lena",
+      "order management",
+      "order taking",
+      "orders"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Take, sequence and track 10 orders"
+  },
+  {
+    "id": "SKILL_KITCHEN_ASSIST",
+    "canonicalName": "Kitchen Assistance",
+    "aliases": [
+      "commis",
+      "helper kitchen",
+      "kitchen assistant",
+      "kitchen helper",
+      "kitchen ka kaam"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "free",
+    "verifiableBy": "Prep, plate and clean-down cycle"
+  },
+  {
+    "id": "SKILL_HOUSEKEEPING",
+    "canonicalName": "Housekeeping",
+    "aliases": [
+      "cleaner",
+      "cleaning",
+      "housekeeping",
+      "maid",
+      "room cleaning",
+      "saaf safai",
+      "safai"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [],
+    "learnHours": 20,
+    "learnCostBand": "free",
+    "verifiableBy": "Clean and reset a room to checklist"
+  },
+  {
+    "id": "SKILL_FRONT_DESK",
+    "canonicalName": "Front Desk / Reception",
+    "aliases": [
+      "front desk",
+      "front office",
+      "reception",
+      "reception ka kaam",
+      "receptionist"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_COMMUNICATION"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "Handle check-in, calls and a walk-in enquiry"
+  },
+  {
+    "id": "SKILL_FOOD_PACKAGING",
+    "canonicalName": "Food Packaging",
+    "aliases": [
+      "food packing",
+      "packaging",
+      "packing",
+      "packing karna",
+      "parcel"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "learnHours": 10,
+    "learnCostBand": "free",
+    "verifiableBy": "Pack and label 20 orders correctly"
+  },
+  {
+    "id": "SKILL_CATERING_OPS",
+    "canonicalName": "Catering Operations",
+    "aliases": [
+      "catering",
+      "catering work",
+      "event food",
+      "function catering",
+      "mess work"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_FOOD_PREP"
+    ],
+    "learnHours": 30,
+    "learnCostBand": "low",
+    "verifiableBy": "Plan service for a 50-person event"
+  },
+  {
+    "id": "SKILL_ELECTRICAL_BASIC",
+    "canonicalName": "Basic Electrical Work",
+    "aliases": [
+      "bijli ka kaam",
+      "electric work",
+      "electrical",
+      "electrical repair",
+      "electrician",
+      "wiring"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 80,
+    "learnCostBand": "medium",
+    "verifiableBy": "Wire a switchboard to code"
+  },
+  {
+    "id": "SKILL_PLUMBING_BASIC",
+    "canonicalName": "Basic Plumbing",
+    "aliases": [
+      "nal ka kaam",
+      "pipe",
+      "pipe fitting",
+      "plumber",
+      "plumbing",
+      "plumbing work"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 70,
+    "learnCostBand": "medium",
+    "verifiableBy": "Fix a leak and install a tap"
+  },
+  {
+    "id": "SKILL_CARPENTRY_BASIC",
+    "canonicalName": "Basic Carpentry",
+    "aliases": [
+      "badhai",
+      "carpenter",
+      "carpentry",
+      "furniture work",
+      "lakdi ka kaam",
+      "wood work"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 90,
+    "learnCostBand": "medium",
+    "verifiableBy": "Build a simple joined frame"
+  },
+  {
+    "id": "SKILL_PAINTING_WALL",
+    "canonicalName": "Wall Painting",
+    "aliases": [
+      "paint karna",
+      "painter",
+      "painting",
+      "putty",
+      "rang karna",
+      "wall painting"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 40,
+    "learnCostBand": "low",
+    "verifiableBy": "Prep and paint a room to finish"
+  },
+  {
+    "id": "SKILL_AC_REFRIGERATION",
+    "canonicalName": "AC & Refrigeration Repair",
+    "aliases": [
+      "ac mechanic",
+      "ac repair",
+      "ac technician",
+      "cooling repair",
+      "fridge repair",
+      "refrigeration"
+    ],
+    "category": "trades",
+    "prerequisites": [
+      "SKILL_ELECTRICAL_BASIC"
+    ],
+    "learnHours": 120,
+    "learnCostBand": "high",
+    "verifiableBy": "Diagnose and service a split AC"
+  },
+  {
+    "id": "SKILL_TWO_WHEELER_REPAIR",
+    "canonicalName": "Two-wheeler Repair",
+    "aliases": [
+      "bike mechanic",
+      "bike repair",
+      "gaadi theek karna",
+      "mechanic",
+      "scooter repair",
+      "two wheeler repair"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 100,
+    "learnCostBand": "medium",
+    "verifiableBy": "Service and diagnose a scooter"
+  },
+  {
+    "id": "SKILL_FOUR_WHEELER_REPAIR",
+    "canonicalName": "Four-wheeler Repair",
+    "aliases": [
+      "auto mechanic",
+      "car mechanic",
+      "car repair",
+      "four wheeler repair",
+      "garage work"
+    ],
+    "category": "trades",
+    "prerequisites": [
+      "SKILL_TWO_WHEELER_REPAIR"
+    ],
+    "learnHours": 140,
+    "learnCostBand": "high",
+    "verifiableBy": "Diagnose and service a car"
+  },
+  {
+    "id": "SKILL_MOBILE_REPAIR",
+    "canonicalName": "Mobile Phone Repair",
+    "aliases": [
+      "cell phone repair",
+      "mobile repair",
+      "mobile technician",
+      "mobile theek karna",
+      "phone repair"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 90,
+    "learnCostBand": "medium",
+    "verifiableBy": "Replace a screen and diagnose a fault"
+  },
+  {
+    "id": "SKILL_WELDING",
+    "canonicalName": "Welding",
+    "aliases": [
+      "arc welding",
+      "gas cutting",
+      "welder",
+      "welding",
+      "welding work"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 110,
+    "learnCostBand": "medium",
+    "verifiableBy": "Produce a sound butt weld"
+  },
+  {
+    "id": "SKILL_TAILORING",
+    "canonicalName": "Tailoring",
+    "aliases": [
+      "darzi",
+      "kapda silna",
+      "sewing",
+      "silai",
+      "stitching",
+      "tailor",
+      "tailoring"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 100,
+    "learnCostBand": "medium",
+    "verifiableBy": "Stitch a garment to measurement"
+  },
+  {
+    "id": "SKILL_EMBROIDERY",
+    "canonicalName": "Embroidery",
+    "aliases": [
+      "embroidery",
+      "hand embroidery",
+      "kadhai",
+      "zari work"
+    ],
+    "category": "trades",
+    "prerequisites": [
+      "SKILL_TAILORING"
+    ],
+    "learnHours": 60,
+    "learnCostBand": "low",
+    "verifiableBy": "Complete a set embroidery pattern"
+  },
+  {
+    "id": "SKILL_BEAUTY_SERVICES",
+    "canonicalName": "Beauty & Grooming Services",
+    "aliases": [
+      "beautician",
+      "beauty parlour",
+      "grooming",
+      "makeup",
+      "parlour ka kaam",
+      "salon work"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 90,
+    "learnCostBand": "medium",
+    "verifiableBy": "Perform three standard salon services"
+  },
+  {
+    "id": "SKILL_HAIRCUTTING",
+    "canonicalName": "Hair Cutting & Styling",
+    "aliases": [
+      "baal katna",
+      "barber",
+      "hair cutting",
+      "hair stylist",
+      "haircut",
+      "salon"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 100,
+    "learnCostBand": "medium",
+    "verifiableBy": "Execute three standard cuts"
+  },
+  {
+    "id": "SKILL_MEHENDI",
+    "canonicalName": "Mehendi Application",
+    "aliases": [
+      "henna",
+      "mehandi",
+      "mehendi",
+      "mehndi lagana"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 40,
+    "learnCostBand": "low",
+    "verifiableBy": "Complete two bridal-style designs"
+  },
+  {
+    "id": "SKILL_APPLIANCE_REPAIR",
+    "canonicalName": "Home Appliance Repair",
+    "aliases": [
+      "appliance repair",
+      "electronics repair",
+      "home appliance",
+      "mixer repair",
+      "washing machine repair"
+    ],
+    "category": "trades",
+    "prerequisites": [
+      "SKILL_ELECTRICAL_BASIC"
+    ],
+    "learnHours": 80,
+    "learnCostBand": "medium",
+    "verifiableBy": "Diagnose a washing machine fault"
+  },
+  {
+    "id": "SKILL_MASONRY",
+    "canonicalName": "Masonry",
+    "aliases": [
+      "brick work",
+      "construction work",
+      "mason",
+      "masonry",
+      "mistri",
+      "rajmistri"
+    ],
+    "category": "trades",
+    "prerequisites": [],
+    "learnHours": 100,
+    "learnCostBand": "medium",
+    "verifiableBy": "Lay a course of brickwork true"
+  },
+  {
+    "id": "SKILL_TWO_WHEELER_LICENCE",
+    "canonicalName": "Two-wheeler Licence",
+    "aliases": [
+      "bike licence",
+      "dl bike",
+      "driving licence bike",
+      "scooter licence",
+      "two wheeler licence"
+    ],
+    "category": "logistics",
+    "prerequisites": [],
+    "learnHours": 20,
+    "learnCostBand": "low",
+    "verifiableBy": "Valid driving licence"
+  },
+  {
+    "id": "SKILL_LMV_LICENCE",
+    "canonicalName": "Light Motor Vehicle Licence",
+    "aliases": [
+      "car chalana licence",
+      "car licence",
+      "dl",
+      "driving licence",
+      "four wheeler licence",
+      "lmv"
+    ],
+    "category": "logistics",
+    "prerequisites": [],
+    "learnHours": 40,
+    "learnCostBand": "medium",
+    "verifiableBy": "Valid LMV driving licence"
+  },
+  {
+    "id": "SKILL_DELIVERY_OPS",
+    "canonicalName": "Delivery Operations",
+    "aliases": [
+      "courier",
+      "delivery",
+      "delivery boy",
+      "delivery karna",
+      "food delivery",
+      "parcel delivery",
+      "rider"
+    ],
+    "category": "logistics",
+    "prerequisites": [
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "learnHours": 12,
+    "learnCostBand": "free",
+    "verifiableBy": "Complete a 10-drop route on an app"
+  },
+  {
+    "id": "SKILL_ROUTE_PLANNING",
+    "canonicalName": "Route Planning",
+    "aliases": [
+      "delivery route",
+      "route",
+      "route planning",
+      "trip planning"
+    ],
+    "category": "logistics",
+    "prerequisites": [
+      "SKILL_DELIVERY_OPS"
+    ],
+    "learnHours": 15,
+    "learnCostBand": "free",
+    "verifiableBy": "Sequence 15 drops efficiently"
+  },
+  {
+    "id": "SKILL_WAREHOUSE_OPS",
+    "canonicalName": "Warehouse Operations",
+    "aliases": [
+      "godown",
+      "godown work",
+      "store keeping",
+      "warehouse",
+      "warehouse operations",
+      "warehouse work"
+    ],
+    "category": "logistics",
+    "prerequisites": [
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "Pick, pack and dispatch to a pick list"
+  },
+  {
+    "id": "SKILL_LOADING_UNLOADING",
+    "canonicalName": "Loading & Unloading",
+    "aliases": [
+      "hamali",
+      "labour work",
+      "loading",
+      "loading unloading",
+      "maal chadhana",
+      "unloading"
+    ],
+    "category": "logistics",
+    "prerequisites": [],
+    "learnHours": 6,
+    "learnCostBand": "free",
+    "verifiableBy": "Safe manual handling demonstration"
+  },
+  {
+    "id": "SKILL_DISPATCH_DOCS",
+    "canonicalName": "Dispatch Documentation",
+    "aliases": [
+      "challan",
+      "delivery challan",
+      "dispatch",
+      "dispatch papers",
+      "e way bill",
+      "gate pass"
+    ],
+    "category": "logistics",
+    "prerequisites": [
+      "SKILL_FILE_RECORDKEEPING"
+    ],
+    "learnHours": 18,
+    "learnCostBand": "low",
+    "verifiableBy": "Prepare a delivery challan and e-way entry"
+  },
+  {
+    "id": "SKILL_BARCODE_SCANNING",
+    "canonicalName": "Barcode / Scanner Operation",
+    "aliases": [
+      "barcode",
+      "barcode scan karna",
+      "barcode scanning",
+      "handheld scanner"
+    ],
+    "category": "logistics",
+    "prerequisites": [],
+    "learnHours": 5,
+    "learnCostBand": "free",
+    "verifiableBy": "Scan and reconcile a 50-item batch"
+  },
+  {
+    "id": "SKILL_AUTO_DRIVING",
+    "canonicalName": "Auto-rickshaw Driving",
+    "aliases": [
+      "auto chalana",
+      "auto driver",
+      "auto driving",
+      "rickshaw",
+      "three wheeler"
+    ],
+    "category": "logistics",
+    "prerequisites": [
+      "SKILL_LMV_LICENCE"
+    ],
+    "learnHours": 30,
+    "learnCostBand": "medium",
+    "verifiableBy": "Valid badge and road test"
+  },
+  {
+    "id": "SKILL_CHILDCARE",
+    "canonicalName": "Childcare",
+    "aliases": [
+      "ayah",
+      "baby sitting",
+      "bacchon ki dekhbhal",
+      "child care",
+      "childcare",
+      "creche",
+      "nanny"
+    ],
+    "category": "care",
+    "prerequisites": [],
+    "learnHours": 40,
+    "learnCostBand": "low",
+    "verifiableBy": "Supervised session with age-group protocol"
+  },
+  {
+    "id": "SKILL_ELDER_CARE",
+    "canonicalName": "Elder Care",
+    "aliases": [
+      "attendant",
+      "budhon ki dekhbhal",
+      "caretaker",
+      "elder care",
+      "home nurse",
+      "old age care"
+    ],
+    "category": "care",
+    "prerequisites": [],
+    "learnHours": 60,
+    "learnCostBand": "medium",
+    "verifiableBy": "Mobility assistance and routine care demo"
+  },
+  {
+    "id": "SKILL_FIRST_AID",
+    "canonicalName": "First Aid",
+    "aliases": [
+      "cpr",
+      "emergency care",
+      "first aid",
+      "medical help basic",
+      "prathmik chikitsa"
+    ],
+    "category": "care",
+    "prerequisites": [],
+    "learnHours": 16,
+    "learnCostBand": "low",
+    "verifiableBy": "Certified first-aid assessment"
+  },
+  {
+    "id": "SKILL_PATIENT_ASSIST",
+    "canonicalName": "Patient Assistance",
+    "aliases": [
+      "hospital helper",
+      "marij ki dekhbhal",
+      "nursing assistant",
+      "patient assist",
+      "patient care",
+      "ward boy"
+    ],
+    "category": "care",
+    "prerequisites": [
+      "SKILL_FIRST_AID"
+    ],
+    "learnHours": 50,
+    "learnCostBand": "medium",
+    "verifiableBy": "Ward assistance protocol demonstration"
+  },
+  {
+    "id": "SKILL_PHARMACY_ASSIST",
+    "canonicalName": "Pharmacy Assistance",
+    "aliases": [
+      "chemist",
+      "dawai ki dukan",
+      "medical shop",
+      "medical store",
+      "pharmacist assistant",
+      "pharmacy"
+    ],
+    "category": "care",
+    "prerequisites": [
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "learnHours": 45,
+    "learnCostBand": "medium",
+    "verifiableBy": "Read prescriptions and locate stock accurately"
+  },
+  {
+    "id": "SKILL_TUTORING_PRIMARY",
+    "canonicalName": "Primary Tutoring",
+    "aliases": [
+      "home tuition",
+      "padhana",
+      "teacher",
+      "teaching",
+      "tuition",
+      "tuition padhana",
+      "tutoring"
+    ],
+    "category": "care",
+    "prerequisites": [
+      "SKILL_COMMUNICATION"
+    ],
+    "learnHours": 30,
+    "learnCostBand": "free",
+    "verifiableBy": "Teach a sample primary lesson"
+  },
+  {
+    "id": "SKILL_TUTORING_SECONDARY",
+    "canonicalName": "Secondary Tutoring",
+    "aliases": [
+      "10th tuition",
+      "high school tuition",
+      "maths tuition",
+      "science tuition",
+      "secondary tuition"
+    ],
+    "category": "care",
+    "prerequisites": [
+      "SKILL_TUTORING_PRIMARY"
+    ],
+    "learnHours": 45,
+    "learnCostBand": "low",
+    "verifiableBy": "Teach a sample class 9-10 lesson"
+  },
+  {
+    "id": "SKILL_SPECIAL_NEEDS_SUPPORT",
+    "canonicalName": "Special Needs Support",
+    "aliases": [
+      "disability support",
+      "special child care",
+      "special education",
+      "special needs"
+    ],
+    "category": "care",
+    "prerequisites": [
+      "SKILL_CHILDCARE"
+    ],
+    "learnHours": 70,
+    "learnCostBand": "medium",
+    "verifiableBy": "Supervised support session"
+  },
+  {
+    "id": "SKILL_SEWING_MACHINE_OP",
+    "canonicalName": "Sewing Machine Operation",
+    "aliases": [
+      "machine operator garment",
+      "power machine",
+      "sewing machine",
+      "silai machine",
+      "stitching machine"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 50,
+    "learnCostBand": "low",
+    "verifiableBy": "Operate an industrial machine to output rate"
+  },
+  {
+    "id": "SKILL_PACKAGING_MACHINE_OP",
+    "canonicalName": "Packaging Machine Operation",
+    "aliases": [
+      "machine operator packing",
+      "packaging machine",
+      "packing machine",
+      "sealing machine"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 30,
+    "learnCostBand": "low",
+    "verifiableBy": "Run and changeover a packing line"
+  },
+  {
+    "id": "SKILL_CNC_BASIC",
+    "canonicalName": "CNC Machine Operation (Basic)",
+    "aliases": [
+      "cnc",
+      "cnc machine",
+      "cnc operator",
+      "lathe cnc",
+      "machine operator cnc"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "learnHours": 120,
+    "learnCostBand": "high",
+    "verifiableBy": "Run a program and verify tolerance"
+  },
+  {
+    "id": "SKILL_LATHE_OP",
+    "canonicalName": "Lathe Operation",
+    "aliases": [
+      "kharad",
+      "lathe",
+      "lathe machine",
+      "lathe operator",
+      "turner"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 90,
+    "learnCostBand": "medium",
+    "verifiableBy": "Turn a component to drawing"
+  },
+  {
+    "id": "SKILL_FORKLIFT_OP",
+    "canonicalName": "Forklift Operation",
+    "aliases": [
+      "forklift",
+      "forklift operator",
+      "material handling equipment",
+      "stacker"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 40,
+    "learnCostBand": "medium",
+    "verifiableBy": "Certified forklift handling test"
+  },
+  {
+    "id": "SKILL_PRINTING_MACHINE_OP",
+    "canonicalName": "Printing Machine Operation",
+    "aliases": [
+      "flex printing",
+      "offset printing",
+      "press operator",
+      "printing machine",
+      "printing press"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 60,
+    "learnCostBand": "medium",
+    "verifiableBy": "Set up and run a print job"
+  },
+  {
+    "id": "SKILL_GENERATOR_OP",
+    "canonicalName": "Generator / DG Operation",
+    "aliases": [
+      "dg set",
+      "generator",
+      "generator operator",
+      "genset"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [
+      "SKILL_ELECTRICAL_BASIC"
+    ],
+    "learnHours": 35,
+    "learnCostBand": "low",
+    "verifiableBy": "Start, load and log a DG set"
+  },
+  {
+    "id": "SKILL_WATER_PLANT_OP",
+    "canonicalName": "Water Plant Operation",
+    "aliases": [
+      "can water plant",
+      "ro plant",
+      "water plant",
+      "water purification"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 40,
+    "learnCostBand": "low",
+    "verifiableBy": "Run a filtration and filling cycle"
+  },
+  {
+    "id": "SKILL_PUNCTUALITY_SHIFT",
+    "canonicalName": "Shift Discipline",
+    "aliases": [
+      "discipline",
+      "punctuality",
+      "regular attendance",
+      "shift discipline",
+      "time pe aana"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [],
+    "learnHours": 4,
+    "learnCostBand": "free",
+    "verifiableBy": "Attendance record over a trial period"
+  },
+  {
+    "id": "SKILL_SAFETY_COMPLIANCE",
+    "canonicalName": "Workplace Safety Compliance",
+    "aliases": [
+      "industrial safety",
+      "ppe",
+      "safety",
+      "safety rules",
+      "suraksha",
+      "workplace safety"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 12,
+    "learnCostBand": "low",
+    "verifiableBy": "Safety induction assessment"
+  },
+  {
+    "id": "SKILL_QUALITY_CHECK",
+    "canonicalName": "Quality Checking",
+    "aliases": [
+      "checking",
+      "inspection",
+      "maal check karna",
+      "qc",
+      "quality check",
+      "quality control"
+    ],
+    "category": "machine_operation",
+    "prerequisites": [],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "Inspect a batch against a defect list"
+  },
+  {
+    "id": "SKILL_VENDOR_COORDINATION",
+    "canonicalName": "Vendor Coordination",
+    "aliases": [
+      "supplier management",
+      "supplier se baat",
+      "vendor coordination",
+      "vendor handling"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_COMMUNICATION"
+    ],
+    "learnHours": 20,
+    "learnCostBand": "low",
+    "verifiableBy": "Run a supplier follow-up cycle"
+  },
+  {
+    "id": "SKILL_CASHLESS_RECON",
+    "canonicalName": "Payment Reconciliation",
+    "aliases": [
+      "payment milana",
+      "payment reconciliation",
+      "reconciliation",
+      "settlement",
+      "settlement check"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_ARITHMETIC"
+    ],
+    "learnHours": 18,
+    "learnCostBand": "low",
+    "verifiableBy": "Reconcile a day of UPI and card settlements"
+  },
+  {
+    "id": "SKILL_BASIC_MARKETING",
+    "canonicalName": "Local Marketing & Promotion",
+    "aliases": [
+      "advertising",
+      "local marketing",
+      "marketing",
+      "pamphlet distribution",
+      "promotion",
+      "publicity"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_COMMUNICATION"
+    ],
+    "learnHours": 25,
+    "learnCostBand": "low",
+    "verifiableBy": "Plan a local promotion campaign"
+  },
+  {
+    "id": "SKILL_CUSTOMER_DATA_MGMT",
+    "canonicalName": "Customer Records Management",
+    "aliases": [
+      "crm",
+      "customer data",
+      "customer database",
+      "customer list",
+      "customer records"
+    ],
+    "category": "digital_admin",
+    "prerequisites": [
+      "SKILL_EXCEL_BASIC"
+    ],
+    "learnHours": 15,
+    "learnCostBand": "low",
+    "verifiableBy": "Maintain and query a customer database"
+  },
+  {
+    "id": "SKILL_QUEUE_MANAGEMENT",
+    "canonicalName": "Queue & Crowd Management",
+    "aliases": [
+      "crowd management",
+      "line sambhalna",
+      "queue management",
+      "rush handle karna"
+    ],
+    "category": "hospitality_food",
+    "prerequisites": [
+      "SKILL_COMMUNICATION"
+    ],
+    "learnHours": 10,
+    "learnCostBand": "free",
+    "verifiableBy": "Manage a peak-hour queue"
+  },
+  {
+    "id": "SKILL_OPENING_CLOSING",
+    "canonicalName": "Shop Opening & Closing",
+    "aliases": [
+      "dukan kholna band karna",
+      "key holder",
+      "opening closing",
+      "shop open close",
+      "shutter duty"
+    ],
+    "category": "retail_sales",
+    "prerequisites": [
+      "SKILL_CASH_HANDLING"
+    ],
+    "learnHours": 8,
+    "learnCostBand": "free",
+    "verifiableBy": "Complete an open and close checklist"
+  },
+  {
+    "id": "SKILL_BASIC_ACCOUNTS_SOFTWARE",
+    "canonicalName": "Accounting Software (non-Tally)",
+    "aliases": [
+      "accounting software",
+      "busy software",
+      "khatabook",
+      "marg software",
+      "vyapar app",
+      "zoho books"
+    ],
+    "category": "accounting_billing",
+    "prerequisites": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "learnHours": 30,
+    "learnCostBand": "medium",
+    "verifiableBy": "Complete a month-end close in the software"
+  }
+]

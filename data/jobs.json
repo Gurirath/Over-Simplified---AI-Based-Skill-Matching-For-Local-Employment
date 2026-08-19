@@ -1,0 +1,9331 @@
+[
+  {
+    "id": "JOB_0001",
+    "title": "Salon Front Desk",
+    "employerName": "Style Point Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.934552,
+      "lng": 79.107263
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_CASH_HANDLING",
+      "SKILL_CUSTOMER_DATA_MGMT"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SOCIAL_MEDIA_BASIC"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0002",
+    "title": "Hospital Ward Assistant (Part-time)",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.945428,
+      "lng": 79.119079
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_PATIENT_ASSIST",
+      "SKILL_FIRST_AID",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 10500,
+    "shift": {
+      "startMin": 1200,
+      "endMin": 1680,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0003",
+    "title": "Primary Tuition Teacher",
+    "employerName": "Sri Sai Coaching",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.890489,
+      "lng": 79.126321
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_TUTORING_PRIMARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 11000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0004",
+    "title": "Evening Delivery Rider - Trainee",
+    "employerName": "Annai Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.940792,
+      "lng": 79.127771
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 33,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0005",
+    "title": "Social Media Assistant - Trainee",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.914822,
+      "lng": 79.126258
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_SOCIAL_MEDIA_BASIC",
+      "SKILL_PHOTO_EDITING_BASIC",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_BASIC_MARKETING"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1050,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 46,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0006",
+    "title": "Painter (Part-time)",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.906746,
+      "lng": 79.152942
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_PAINTING_WALL",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 7500,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0007",
+    "title": "Customer Support Executive (Part-time)",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.930824,
+      "lng": 79.127643
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_COMPLAINT_HANDLING",
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0008",
+    "title": "Hotel Housekeeping Staff (Immediate Joining)",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.919639,
+      "lng": 79.139365
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8500,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0009",
+    "title": "Data Entry Operator",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.929658,
+      "lng": 79.107554
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_TYPING_ENGLISH"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0010",
+    "title": "Evening Counter Staff - Trainee",
+    "employerName": "Vasan Provisions",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.922011,
+      "lng": 79.130554
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 10500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 33,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0011",
+    "title": "Medical Store Billing Staff (Immediate Joining)",
+    "employerName": "Nithya Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.93557,
+      "lng": 79.125075
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_GST_FILING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_TALLY_BASIC"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0012",
+    "title": "Junior Accountant (Part-time)",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.970851,
+      "lng": 79.140842
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_TALLY_ADVANCED",
+      "SKILL_GST_FILING",
+      "SKILL_BOOKKEEPING",
+      "SKILL_EXCEL_ADVANCED"
+    ],
+    "preferredSkills": [
+      "SKILL_PAYROLL_BASIC"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0013",
+    "title": "Clinic Front Desk (Part-time)",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.980747,
+      "lng": 79.135258
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_DATA_MGMT",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 10500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0014",
+    "title": "Spoken English Trainer (Part-time)",
+    "employerName": "Sri Sai Coaching",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.974702,
+      "lng": 79.123124
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_SPOKEN_ENGLISH_FLUENT",
+      "SKILL_TRAINING_OTHERS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_WRITTEN_ENGLISH"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 16,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0015",
+    "title": "Counter Salesperson (Part-time)",
+    "employerName": "Vasan Provisions",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.941125,
+      "lng": 79.168293
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 9000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0016",
+    "title": "Distribution Sales Assistant",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.929472,
+      "lng": 79.141319
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_VENDOR_COORDINATION",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0017",
+    "title": "School Office Assistant - Trainee",
+    "employerName": "Vellore Public School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.908775,
+      "lng": 79.155445
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 420,
+      "endMin": 780,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 34,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0018",
+    "title": "Accounts Assistant - Trainee",
+    "employerName": "Murugan & Co",
+    "employerType": "other",
+    "location": {
+      "lat": 12.88188,
+      "lng": 79.129451
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_TALLY_BASIC",
+      "SKILL_GST_FILING",
+      "SKILL_EXCEL_BASIC"
+    ],
+    "preferredSkills": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0019",
+    "title": "Junior Accountant",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.929826,
+      "lng": 79.140876
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_TALLY_ADVANCED",
+      "SKILL_GST_FILING",
+      "SKILL_BOOKKEEPING",
+      "SKILL_EXCEL_ADVANCED"
+    ],
+    "preferredSkills": [
+      "SKILL_PAYROLL_BASIC"
+    ],
+    "salaryMin": 18000,
+    "salaryMax": 24000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0020",
+    "title": "Two-wheeler Mechanic (Part-time)",
+    "employerName": "RK Motors",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.972478,
+      "lng": 79.132034
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 630,
+      "endMin": 1140,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 32,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0021",
+    "title": "Pharmacy Assistant",
+    "employerName": "Sri Sai Medicals",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.923927,
+      "lng": 79.138565
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0022",
+    "title": "Security Guard (Night)",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.968127,
+      "lng": 79.123039
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_CCTV_MONITORING",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_PUNCTUALITY_SHIFT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 12000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 1200,
+      "endMin": 1680,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0023",
+    "title": "Pharmacy Assistant (Part-time)",
+    "employerName": "Vellore Medicals",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.91236,
+      "lng": 79.157009
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 32,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0024",
+    "title": "Evening Delivery Rider",
+    "employerName": "Annai Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.929005,
+      "lng": 79.114897
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0025",
+    "title": "Cook - Trainee",
+    "employerName": "Saravana Mess",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.913186,
+      "lng": 79.135281
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_CATERING_OPS"
+    ],
+    "salaryMin": 14500,
+    "salaryMax": 22500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0026",
+    "title": "Salon Assistant - Trainee",
+    "employerName": "Beauty Bliss",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.969899,
+      "lng": 79.162636
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_BEAUTY_SERVICES",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_HOUSEKEEPING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0027",
+    "title": "Spoken English Trainer",
+    "employerName": "Katpadi Study Circle",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.978802,
+      "lng": 79.133757
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_SPOKEN_ENGLISH_FLUENT",
+      "SKILL_TRAINING_OTHERS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_WRITTEN_ENGLISH"
+    ],
+    "salaryMin": 15500,
+    "salaryMax": 21500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0028",
+    "title": "Kitchen Helper - Trainee",
+    "employerName": "Saravana Mess",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.935966,
+      "lng": 79.125788
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_KITCHEN_ASSIST",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PREP"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0029",
+    "title": "Hospital Ward Assistant (Immediate Joining)",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.936753,
+      "lng": 79.132607
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_PATIENT_ASSIST",
+      "SKILL_FIRST_AID",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 1200,
+      "endMin": 1680,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0030",
+    "title": "School Office Assistant - Trainee",
+    "employerName": "Green Valley School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.896547,
+      "lng": 79.141663
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 40,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0031",
+    "title": "Warehouse Assistant",
+    "employerName": "Vellore Logistics Hub",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.926556,
+      "lng": 79.117743
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_WAREHOUSE_OPS",
+      "SKILL_LOADING_UNLOADING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_BARCODE_SCANNING"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1050,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0032",
+    "title": "Primary Tuition Teacher",
+    "employerName": "Bright Minds Academy",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.935914,
+      "lng": 79.129947
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_TUTORING_PRIMARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 9500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 24,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0033",
+    "title": "Delivery Executive - Trainee",
+    "employerName": "QuickShip Depot",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.92438,
+      "lng": 79.142778
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 13000,
+    "salaryMax": 19000,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0034",
+    "title": "Kitchen Helper (Immediate Joining)",
+    "employerName": "Saravana Mess",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.980422,
+      "lng": 79.122711
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_KITCHEN_ASSIST",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PREP"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1260,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0035",
+    "title": "Telecaller",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.960637,
+      "lng": 79.128521
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_TELECALLING",
+      "SKILL_COMMUNICATION",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_DATA_MGMT"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1110,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0036",
+    "title": "Parcel & Packing Staff (Part-time)",
+    "employerName": "Hotel Grand Vellore",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.963138,
+      "lng": 79.123942
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_FOOD_PACKAGING",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_ORDER_MANAGEMENT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 5500,
+    "salaryMax": 8000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 23,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0037",
+    "title": "Car Mechanic (Immediate Joining)",
+    "employerName": "Ganesh Auto Care",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.931344,
+      "lng": 79.117612
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_FOUR_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_LMV_LICENCE"
+    ],
+    "salaryMin": 14000,
+    "salaryMax": 21000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 57,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0038",
+    "title": "Home Elder Care Attendant",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.922517,
+      "lng": 79.136309
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_ELDER_CARE",
+      "SKILL_FIRST_AID"
+    ],
+    "preferredSkills": [
+      "SKILL_PATIENT_ASSIST"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 19500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0039",
+    "title": "Clinic Front Desk (Immediate Joining)",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.920836,
+      "lng": 79.13953
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_DATA_MGMT",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0040",
+    "title": "Parcel & Packing Staff",
+    "employerName": "Anjappar Branch",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.935213,
+      "lng": 79.109765
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_FOOD_PACKAGING",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_ORDER_MANAGEMENT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 9000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0041",
+    "title": "Billing Operator - Trainee",
+    "employerName": "Lakshmi Super Market",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.911885,
+      "lng": 79.142946
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_CASH_HANDLING",
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0042",
+    "title": "Housekeeping Staff (Immediate Joining)",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.911287,
+      "lng": 79.118156
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 9000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0043",
+    "title": "Medical Shop Counter Staff",
+    "employerName": "Sree Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.971612,
+      "lng": 79.151862
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_PHARMACY_ASSIST"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 900,
+      "endMin": 1260,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0044",
+    "title": "Hotel Receptionist",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.930671,
+      "lng": 79.115078
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 630,
+      "endMin": 1140,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0045",
+    "title": "Junior Accountant - Trainee",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.91931,
+      "lng": 79.121311
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_TALLY_ADVANCED",
+      "SKILL_GST_FILING",
+      "SKILL_BOOKKEEPING",
+      "SKILL_EXCEL_ADVANCED"
+    ],
+    "preferredSkills": [
+      "SKILL_PAYROLL_BASIC"
+    ],
+    "salaryMin": 19500,
+    "salaryMax": 25500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0046",
+    "title": "Hair Stylist (Part-time)",
+    "employerName": "Glow Beauty Parlour",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.902622,
+      "lng": 79.137082
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_HAIRCUTTING",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPSELLING"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0047",
+    "title": "Workshop Helper (Part-time)",
+    "employerName": "Sakthi Auto Works",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.933922,
+      "lng": 79.124285
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_LOADING_UNLOADING"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR"
+    ],
+    "salaryMin": 5500,
+    "salaryMax": 8000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0048",
+    "title": "Printing Press Operator",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.925252,
+      "lng": 79.140981
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_PRINTING_MACHINE_OP",
+      "SKILL_QUALITY_CHECK",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 13000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1110,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0049",
+    "title": "Data Entry Operator (Part-time)",
+    "employerName": "Anbu Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.938429,
+      "lng": 79.159382
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_TYPING_ENGLISH"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 10000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 25,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0050",
+    "title": "Shop Supervisor (Immediate Joining)",
+    "employerName": "Anbu Mini Mart",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.949781,
+      "lng": 79.168199
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_RETAIL_OPS",
+      "SKILL_SUPERVISION",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_OPENING_CLOSING"
+    ],
+    "salaryMin": 17000,
+    "salaryMax": 22000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0051",
+    "title": "Picker / Packer (Part-time)",
+    "employerName": "Katpadi Warehousing",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.931257,
+      "lng": 79.122177
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 10000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 25,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0052",
+    "title": "Security Guard (Night) (Immediate Joining)",
+    "employerName": "Anbu Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.89721,
+      "lng": 79.156674
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_CCTV_MONITORING",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_PUNCTUALITY_SHIFT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 1260,
+      "endMin": 1740,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0053",
+    "title": "Customer Support Executive",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.922981,
+      "lng": 79.132916
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_COMPLAINT_HANDLING",
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0054",
+    "title": "Spoken English Trainer (Immediate Joining)",
+    "employerName": "Vidya Tuition Centre",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.928737,
+      "lng": 79.116358
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_SPOKEN_ENGLISH_FLUENT",
+      "SKILL_TRAINING_OTHERS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_WRITTEN_ENGLISH"
+    ],
+    "salaryMin": 14000,
+    "salaryMax": 20000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0055",
+    "title": "Distribution Sales Assistant (Part-time)",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.962156,
+      "lng": 79.147504
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_VENDOR_COORDINATION",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING"
+    ],
+    "salaryMin": 7500,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0056",
+    "title": "Pharmacy Stock Assistant (Part-time)",
+    "employerName": "Apollo Pharmacy Franchise",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.892512,
+      "lng": 79.131129
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_STOCK_AUDIT"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 9500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 19,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0057",
+    "title": "Xerox & DTP Operator",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.935108,
+      "lng": 79.15706
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_PRINTER_SCANNER",
+      "SKILL_WORD_PROCESSING",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_TYPING_TAMIL",
+      "SKILL_ONLINE_FORMS"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1110,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0058",
+    "title": "Delivery Executive",
+    "employerName": "Vellore Logistics Hub",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.915702,
+      "lng": 79.104936
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0059",
+    "title": "Delivery Executive - Trainee",
+    "employerName": "QuickShip Depot",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.946991,
+      "lng": 79.112475
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0060",
+    "title": "Pharmacy Stock Assistant",
+    "employerName": "Vellore Medicals",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.962166,
+      "lng": 79.132506
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_STOCK_AUDIT"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 510,
+      "endMin": 870,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0061",
+    "title": "Warehouse Assistant (Immediate Joining)",
+    "employerName": "Annai Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.925063,
+      "lng": 79.126929
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_WAREHOUSE_OPS",
+      "SKILL_LOADING_UNLOADING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_BARCODE_SCANNING"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0062",
+    "title": "Pharmacy Stock Assistant - Trainee",
+    "employerName": "Vellore Medicals",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.967394,
+      "lng": 79.149375
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_STOCK_AUDIT"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0063",
+    "title": "AC Service Technician - Trainee",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.938836,
+      "lng": 79.125161
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_AC_REFRIGERATION",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_LICENCE"
+    ],
+    "salaryMin": 15000,
+    "salaryMax": 22000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0064",
+    "title": "Baker's Assistant",
+    "employerName": "Iyengar Bakery",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.97129,
+      "lng": 79.142262
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 360,
+      "endMin": 720,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0065",
+    "title": "Workshop Helper",
+    "employerName": "Speed Garage",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.930742,
+      "lng": 79.109237
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_LOADING_UNLOADING"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0066",
+    "title": "School Front Desk",
+    "employerName": "St. Joseph Matric School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.891877,
+      "lng": 79.144225
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMMUNICATION",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 43,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0067",
+    "title": "Plumber (Immediate Joining)",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.957717,
+      "lng": 79.134806
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_PLUMBING_BASIC",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 12000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0068",
+    "title": "School Accounts Clerk (Immediate Joining)",
+    "employerName": "Vellore Public School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.965982,
+      "lng": 79.134393
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_TALLY_BASIC",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_BOOKKEEPING"
+    ],
+    "preferredSkills": [
+      "SKILL_GST_FILING"
+    ],
+    "salaryMin": 14000,
+    "salaryMax": 19000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 43,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0069",
+    "title": "Two-wheeler Mechanic - Trainee",
+    "employerName": "Sakthi Auto Works",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.930949,
+      "lng": 79.120015
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0070",
+    "title": "Mobile Repair Technician (Immediate Joining)",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.943281,
+      "lng": 79.16163
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_MOBILE_REPAIR",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_MANUAL"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0071",
+    "title": "Housekeeping Staff (Immediate Joining)",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.978101,
+      "lng": 79.130852
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8500,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0072",
+    "title": "Medical Store Billing Staff",
+    "employerName": "Balaji Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.932117,
+      "lng": 79.112317
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_GST_FILING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_TALLY_BASIC"
+    ],
+    "salaryMin": 14500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0073",
+    "title": "Spare Parts Counter Staff (Immediate Joining)",
+    "employerName": "Sakthi Auto Works",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.979377,
+      "lng": 79.153399
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_PRODUCT_KNOWLEDGE",
+      "SKILL_BILLING_MANUAL"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0074",
+    "title": "Maths & Science Tutor",
+    "employerName": "Vidya Tuition Centre",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.934294,
+      "lng": 79.123891
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_TUTORING_SECONDARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 990,
+      "endMin": 1350,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0075",
+    "title": "Counter Salesperson (Immediate Joining)",
+    "employerName": "Sri Balaji Stores",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.91642,
+      "lng": 79.143036
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0076",
+    "title": "Medical Shop Counter Staff (Part-time)",
+    "employerName": "Annai Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.96233,
+      "lng": 79.142239
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_PHARMACY_ASSIST"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 9500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0077",
+    "title": "Picker / Packer (Part-time)",
+    "employerName": "Annai Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.916383,
+      "lng": 79.125481
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 10000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 900,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 23,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0078",
+    "title": "Hotel Housekeeping Staff - Trainee",
+    "employerName": "Darling Residency",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.970954,
+      "lng": 79.152764
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8000,
+    "salaryMax": 11000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0079",
+    "title": "Stock Assistant",
+    "employerName": "Anbu Mini Mart",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.947115,
+      "lng": 79.108699
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_STOCK_AUDIT",
+      "SKILL_LOADING_UNLOADING"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0080",
+    "title": "Customer Support Executive (Part-time)",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.928641,
+      "lng": 79.119446
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_COMPLAINT_HANDLING",
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0081",
+    "title": "Forklift Operator - Trainee",
+    "employerName": "Vellore Logistics Hub",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.9694,
+      "lng": 79.140945
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FORKLIFT_OP",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_WAREHOUSE_OPS"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 15000,
+    "salaryMax": 20000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1050,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0082",
+    "title": "AC Service Technician - Trainee",
+    "employerName": "Murugan & Co",
+    "employerType": "other",
+    "location": {
+      "lat": 12.940972,
+      "lng": 79.14193
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_AC_REFRIGERATION",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_LICENCE"
+    ],
+    "salaryMin": 14000,
+    "salaryMax": 21000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0083",
+    "title": "Catering Assistant (Part-time)",
+    "employerName": "Adyar Ananda Bhavan Branch",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.900256,
+      "lng": 79.149475
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_CATERING_OPS",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_TEAM_COORDINATION"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 10500,
+    "shift": {
+      "startMin": 990,
+      "endMin": 1350,
+      "days": [
+        0,
+        6
+      ]
+    },
+    "hoursPerWeek": 16,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0084",
+    "title": "Primary Tuition Teacher",
+    "employerName": "Katpadi Study Circle",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.964149,
+      "lng": 79.163023
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_TUTORING_PRIMARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 930,
+      "endMin": 1290,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0085",
+    "title": "Accounts Assistant",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.923759,
+      "lng": 79.129521
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_TALLY_BASIC",
+      "SKILL_GST_FILING",
+      "SKILL_EXCEL_BASIC"
+    ],
+    "preferredSkills": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0086",
+    "title": "Pharmacy Assistant",
+    "employerName": "Care Pharma",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.944008,
+      "lng": 79.153086
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0087",
+    "title": "Shop Supervisor (Immediate Joining)",
+    "employerName": "Muthu Traders",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.933261,
+      "lng": 79.139308
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_RETAIL_OPS",
+      "SKILL_SUPERVISION",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_OPENING_CLOSING"
+    ],
+    "salaryMin": 16000,
+    "salaryMax": 21000,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1260,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0088",
+    "title": "Bakery Sales Staff (Immediate Joining)",
+    "employerName": "Daily Fresh Bakes",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.927954,
+      "lng": 79.140329
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_UPSELLING"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0089",
+    "title": "Two-wheeler Mechanic (Part-time)",
+    "employerName": "Sakthi Auto Works",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.946841,
+      "lng": 79.115943
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 7500,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0090",
+    "title": "CSC / Online Services Operator",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.975709,
+      "lng": 79.126012
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_ONLINE_FORMS",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_PRINTER_SCANNER",
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0091",
+    "title": "Maths & Science Tutor - Trainee",
+    "employerName": "Excel Learning Point",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.9356,
+      "lng": 79.136815
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_TUTORING_SECONDARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 990,
+      "endMin": 1350,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0092",
+    "title": "Evening Counter Staff (Part-time)",
+    "employerName": "Muthu Traders",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.977681,
+      "lng": 79.153101
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 5500,
+    "salaryMax": 7500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0093",
+    "title": "Hotel Housekeeping Staff - Trainee",
+    "employerName": "Adyar Ananda Bhavan Branch",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.934367,
+      "lng": 79.128659
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 9000,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0094",
+    "title": "Counter Salesperson (Part-time)",
+    "employerName": "Muthu Traders",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.923148,
+      "lng": 79.134299
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 6000,
+    "salaryMax": 8500,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0095",
+    "title": "Clinic Front Desk",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.948773,
+      "lng": 79.136917
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_DATA_MGMT",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0096",
+    "title": "Bakery Counter Assistant (Part-time)",
+    "employerName": "Golden Crust",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.967685,
+      "lng": 79.133095
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_BAKERY_COUNTER",
+      "SKILL_CASH_HANDLING",
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 10000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 18,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0097",
+    "title": "Bakery Counter Assistant (Part-time)",
+    "employerName": "Golden Crust",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.896612,
+      "lng": 79.119389
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_BAKERY_COUNTER",
+      "SKILL_CASH_HANDLING",
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 9000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0098",
+    "title": "Mobile Repair Technician - Trainee",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.979641,
+      "lng": 79.127154
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_MOBILE_REPAIR",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_MANUAL"
+    ],
+    "salaryMin": 13000,
+    "salaryMax": 19000,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1110,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0099",
+    "title": "Cook (Part-time)",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.973942,
+      "lng": 79.128037
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_CATERING_OPS"
+    ],
+    "salaryMin": 9500,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0100",
+    "title": "Junior Accountant",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.920416,
+      "lng": 79.127515
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_TALLY_ADVANCED",
+      "SKILL_GST_FILING",
+      "SKILL_BOOKKEEPING",
+      "SKILL_EXCEL_ADVANCED"
+    ],
+    "preferredSkills": [
+      "SKILL_PAYROLL_BASIC"
+    ],
+    "salaryMin": 17500,
+    "salaryMax": 23500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0101",
+    "title": "Field Sales Executive - Trainee",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.931995,
+      "lng": 79.117342
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_COMMUNICATION",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_NEGOTIATION",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 20500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0102",
+    "title": "Office Assistant - Trainee",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.927683,
+      "lng": 79.134748
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS",
+      "SKILL_PRINTER_SCANNER"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0103",
+    "title": "Picker / Packer - Trainee",
+    "employerName": "Katpadi Warehousing",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.931418,
+      "lng": 79.133589
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0104",
+    "title": "Two-wheeler Mechanic (Part-time)",
+    "employerName": "Ganesh Auto Care",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.921701,
+      "lng": 79.124672
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1050,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 32,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0105",
+    "title": "Evening Counter Staff (Part-time)",
+    "employerName": "Sri Balaji Stores",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.927195,
+      "lng": 79.138637
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 6000,
+    "salaryMax": 8000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 19,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0106",
+    "title": "Painter (Part-time)",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.928614,
+      "lng": 79.124816
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_PAINTING_WALL",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 32,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0107",
+    "title": "Delivery Executive (Immediate Joining)",
+    "employerName": "Annai Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.975636,
+      "lng": 79.14978
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0108",
+    "title": "Medical Shop Counter Staff",
+    "employerName": "Balaji Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.915547,
+      "lng": 79.131199
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_PHARMACY_ASSIST"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0109",
+    "title": "School Office Assistant - Trainee",
+    "employerName": "Little Flower School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.98007,
+      "lng": 79.127338
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 40,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0110",
+    "title": "Plumber (Immediate Joining)",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.896088,
+      "lng": 79.157236
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_PLUMBING_BASIC",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 12000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0111",
+    "title": "Home Elder Care Attendant (Part-time)",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.925802,
+      "lng": 79.126906
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_ELDER_CARE",
+      "SKILL_FIRST_AID"
+    ],
+    "preferredSkills": [
+      "SKILL_PATIENT_ASSIST"
+    ],
+    "salaryMin": 7500,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0112",
+    "title": "Cook (Part-time)",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.966904,
+      "lng": 79.122479
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_CATERING_OPS"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1230,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 34,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0113",
+    "title": "Hotel Receptionist - Trainee",
+    "employerName": "Darling Residency",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.897047,
+      "lng": 79.142619
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0114",
+    "title": "Hair Stylist",
+    "employerName": "Cut Above Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.964525,
+      "lng": 79.122518
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_HAIRCUTTING",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPSELLING"
+    ],
+    "salaryMin": 13000,
+    "salaryMax": 20000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0115",
+    "title": "Field Sales Executive",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.916066,
+      "lng": 79.104709
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_COMMUNICATION",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_NEGOTIATION",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 20500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0116",
+    "title": "Xerox & DTP Operator",
+    "employerName": "Murugan & Co",
+    "employerType": "other",
+    "location": {
+      "lat": 12.948293,
+      "lng": 79.109654
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_PRINTER_SCANNER",
+      "SKILL_WORD_PROCESSING",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_TYPING_TAMIL",
+      "SKILL_ONLINE_FORMS"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0117",
+    "title": "Housekeeping Staff (Immediate Joining)",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.935919,
+      "lng": 79.132351
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8000,
+    "salaryMax": 10500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 900,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0118",
+    "title": "Tailor (Part-time)",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.911015,
+      "lng": 79.143366
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_TAILORING",
+      "SKILL_SEWING_MACHINE_OP"
+    ],
+    "preferredSkills": [
+      "SKILL_EMBROIDERY",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 7500,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0119",
+    "title": "Night Receptionist",
+    "employerName": "Chennai Cafe",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.957164,
+      "lng": 79.127774
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "preferredSkills": [
+      "SKILL_CCTV_MONITORING"
+    ],
+    "salaryMin": 13000,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 1200,
+      "endMin": 1680,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0120",
+    "title": "Hospital Ward Assistant - Trainee",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.882147,
+      "lng": 79.131758
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_PATIENT_ASSIST",
+      "SKILL_FIRST_AID",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 1200,
+      "endMin": 1680,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0121",
+    "title": "Parcel & Packing Staff",
+    "employerName": "Chennai Cafe",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.915954,
+      "lng": 79.123187
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_FOOD_PACKAGING",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_ORDER_MANAGEMENT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 9000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0122",
+    "title": "School Front Desk - Trainee",
+    "employerName": "Vellore Public School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.962746,
+      "lng": 79.132628
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMMUNICATION",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 46,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0123",
+    "title": "Distribution Sales Assistant (Immediate Joining)",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.908217,
+      "lng": 79.128543
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_VENDOR_COORDINATION",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0124",
+    "title": "Counter Salesperson - Trainee",
+    "employerName": "Lakshmi Super Market",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.897906,
+      "lng": 79.145527
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1110,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0125",
+    "title": "Centre Coordinator",
+    "employerName": "Bright Minds Academy",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.932691,
+      "lng": 79.138415
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_COMMUNICATION",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_CUSTOMER_DATA_MGMT"
+    ],
+    "preferredSkills": [
+      "SKILL_TELECALLING"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0126",
+    "title": "Bakery Sales Staff (Part-time)",
+    "employerName": "Daily Fresh Bakes",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.92706,
+      "lng": 79.143011
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_UPSELLING"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 9000,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0127",
+    "title": "Maths & Science Tutor (Part-time)",
+    "employerName": "Excel Learning Point",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.908182,
+      "lng": 79.135138
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_TUTORING_SECONDARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 18,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0128",
+    "title": "School Front Desk",
+    "employerName": "Green Valley School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.970754,
+      "lng": 79.133102
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMMUNICATION",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 40,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0129",
+    "title": "Spoken English Trainer",
+    "employerName": "Excel Learning Point",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.949202,
+      "lng": 79.124543
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_SPOKEN_ENGLISH_FLUENT",
+      "SKILL_TRAINING_OTHERS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_WRITTEN_ENGLISH"
+    ],
+    "salaryMin": 15500,
+    "salaryMax": 21500,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0130",
+    "title": "Counter Salesperson (Immediate Joining)",
+    "employerName": "Lakshmi Super Market",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.906156,
+      "lng": 79.146634
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0131",
+    "title": "Dispatch Clerk - Trainee",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.91288,
+      "lng": 79.136339
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_DISPATCH_DOCS",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_FILE_RECORDKEEPING"
+    ],
+    "preferredSkills": [
+      "SKILL_BARCODE_SCANNING"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0132",
+    "title": "Evening Delivery Rider (Part-time)",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.911796,
+      "lng": 79.157187
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 10500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0133",
+    "title": "Catering Assistant",
+    "employerName": "Sangeetha Restaurant",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.96652,
+      "lng": 79.141759
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_CATERING_OPS",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_TEAM_COORDINATION"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        6
+      ]
+    },
+    "hoursPerWeek": 26,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0134",
+    "title": "Catering Assistant (Immediate Joining)",
+    "employerName": "Darling Residency",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.89909,
+      "lng": 79.155992
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_CATERING_OPS",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_TEAM_COORDINATION"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 9500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        6
+      ]
+    },
+    "hoursPerWeek": 23,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0135",
+    "title": "Accounts Assistant (Immediate Joining)",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.930297,
+      "lng": 79.142823
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_TALLY_BASIC",
+      "SKILL_GST_FILING",
+      "SKILL_EXCEL_BASIC"
+    ],
+    "preferredSkills": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "salaryMin": 14000,
+    "salaryMax": 19000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0136",
+    "title": "Salon Assistant",
+    "employerName": "Style Point Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.907423,
+      "lng": 79.142802
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_BEAUTY_SERVICES",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_HOUSEKEEPING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 9500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0137",
+    "title": "Printing Press Operator (Part-time)",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.900113,
+      "lng": 79.133419
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_PRINTING_MACHINE_OP",
+      "SKILL_QUALITY_CHECK",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 630,
+      "endMin": 1140,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 25,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0138",
+    "title": "Painter - Trainee",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.962965,
+      "lng": 79.144944
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_PAINTING_WALL",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 11500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0139",
+    "title": "Evening Counter Staff",
+    "employerName": "Vasan Provisions",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.900815,
+      "lng": 79.128949
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 990,
+      "endMin": 1350,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0140",
+    "title": "Two-wheeler Mechanic",
+    "employerName": "Sakthi Auto Works",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.925217,
+      "lng": 79.124634
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1050,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0141",
+    "title": "Restaurant Server (Immediate Joining)",
+    "employerName": "Darling Residency",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.912499,
+      "lng": 79.130162
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_TABLE_SERVICE",
+      "SKILL_ORDER_MANAGEMENT",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0142",
+    "title": "Front Office Executive (Immediate Joining)",
+    "employerName": "Murugan & Co",
+    "employerType": "other",
+    "location": {
+      "lat": 12.940922,
+      "lng": 79.109793
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMMUNICATION",
+      "SKILL_EMAIL_COMMS",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0143",
+    "title": "Warehouse Assistant (Immediate Joining)",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.917401,
+      "lng": 79.126808
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_WAREHOUSE_OPS",
+      "SKILL_LOADING_UNLOADING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_BARCODE_SCANNING"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0144",
+    "title": "Two-wheeler Mechanic",
+    "employerName": "Sakthi Auto Works",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.929534,
+      "lng": 79.127122
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0145",
+    "title": "CSC / Online Services Operator",
+    "employerName": "Anbu Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.964553,
+      "lng": 79.145665
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_ONLINE_FORMS",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_PRINTER_SCANNER",
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0146",
+    "title": "Spare Parts Counter Staff (Immediate Joining)",
+    "employerName": "RK Motors",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.91832,
+      "lng": 79.125758
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_PRODUCT_KNOWLEDGE",
+      "SKILL_BILLING_MANUAL"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 600,
+      "endMin": 1110,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0147",
+    "title": "Office Assistant - Trainee",
+    "employerName": "Murugan & Co",
+    "employerType": "other",
+    "location": {
+      "lat": 12.898527,
+      "lng": 79.133466
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS",
+      "SKILL_PRINTER_SCANNER"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0148",
+    "title": "Picker / Packer (Immediate Joining)",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.928666,
+      "lng": 79.133575
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 900,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0149",
+    "title": "Social Media Assistant (Immediate Joining)",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.912892,
+      "lng": 79.142403
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_SOCIAL_MEDIA_BASIC",
+      "SKILL_PHOTO_EDITING_BASIC",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_BASIC_MARKETING"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 37,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0150",
+    "title": "Parcel & Packing Staff",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.920108,
+      "lng": 79.12647
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_FOOD_PACKAGING",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_ORDER_MANAGEMENT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8500,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0151",
+    "title": "Stock Assistant - Trainee",
+    "employerName": "Lakshmi Super Market",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.932422,
+      "lng": 79.162396
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_STOCK_AUDIT",
+      "SKILL_LOADING_UNLOADING"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0152",
+    "title": "Counter Salesperson",
+    "employerName": "Kumaran Stores",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.896623,
+      "lng": 79.120847
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0153",
+    "title": "Maths & Science Tutor",
+    "employerName": "Excel Learning Point",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.926295,
+      "lng": 79.107005
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_TUTORING_SECONDARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0154",
+    "title": "Delivery Executive - Trainee",
+    "employerName": "Annai Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.943754,
+      "lng": 79.16258
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 19500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0155",
+    "title": "School Office Assistant (Part-time)",
+    "employerName": "Little Flower School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.918243,
+      "lng": 79.141378
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 22,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0156",
+    "title": "Billing Operator (Part-time)",
+    "employerName": "Anbu Mini Mart",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.933542,
+      "lng": 79.122431
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_CASH_HANDLING",
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 9500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0157",
+    "title": "Bakery Counter Assistant (Part-time)",
+    "employerName": "Hot Breads Corner",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.974416,
+      "lng": 79.1261
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_BAKERY_COUNTER",
+      "SKILL_CASH_HANDLING",
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 9500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0158",
+    "title": "Pharmacy Assistant",
+    "employerName": "Care Pharma",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.929265,
+      "lng": 79.112746
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0159",
+    "title": "Parcel & Packing Staff",
+    "employerName": "Chennai Cafe",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.917555,
+      "lng": 79.143002
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_FOOD_PACKAGING",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_ORDER_MANAGEMENT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 10500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0160",
+    "title": "Salon Assistant",
+    "employerName": "Style Point Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.961665,
+      "lng": 79.13893
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_BEAUTY_SERVICES",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_HOUSEKEEPING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0161",
+    "title": "Housekeeping Staff",
+    "employerName": "Murugan & Co",
+    "employerType": "other",
+    "location": {
+      "lat": 12.927264,
+      "lng": 79.123182
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 8500,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0162",
+    "title": "Cook",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.920944,
+      "lng": 79.126531
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_CATERING_OPS"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 21500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0163",
+    "title": "Pharmacy Assistant",
+    "employerName": "Apollo Pharmacy Franchise",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.939135,
+      "lng": 79.14604
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0164",
+    "title": "Store Assistant - Trainee",
+    "employerName": "Anbu Mini Mart",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.922244,
+      "lng": 79.128962
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0165",
+    "title": "Clinic Front Desk (Part-time)",
+    "employerName": "Amman Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.965015,
+      "lng": 79.139599
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_DATA_MGMT",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 10000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 25,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0166",
+    "title": "Picker / Packer - Trainee",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.894848,
+      "lng": 79.119542
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0167",
+    "title": "Maths & Science Tutor (Immediate Joining)",
+    "employerName": "Vidya Tuition Centre",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.964209,
+      "lng": 79.16213
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_TUTORING_SECONDARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 13000,
+    "salaryMax": 19000,
+    "shift": {
+      "startMin": 900,
+      "endMin": 1260,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0168",
+    "title": "Creche Assistant (Part-time)",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.907995,
+      "lng": 79.138506
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_CHILDCARE",
+      "SKILL_FIRST_AID",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 5500,
+    "salaryMax": 9000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 20,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0169",
+    "title": "Telecaller",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.934849,
+      "lng": 79.131169
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_TELECALLING",
+      "SKILL_COMMUNICATION",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_DATA_MGMT"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0170",
+    "title": "Medical Shop Counter Staff - Trainee",
+    "employerName": "Sree Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.917083,
+      "lng": 79.131374
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_PHARMACY_ASSIST"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0171",
+    "title": "Pharmacy Assistant - Trainee",
+    "employerName": "Care Pharma",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.909714,
+      "lng": 79.136925
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15500,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0172",
+    "title": "Creche Assistant - Trainee",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.933829,
+      "lng": 79.116609
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_CHILDCARE",
+      "SKILL_FIRST_AID",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 9500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 43,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0173",
+    "title": "Delivery Executive",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.968183,
+      "lng": 79.147752
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0174",
+    "title": "Security Guard (Night) - Trainee",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.969722,
+      "lng": 79.148588
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_CCTV_MONITORING",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_PUNCTUALITY_SHIFT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 1230,
+      "endMin": 1710,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0175",
+    "title": "Kitchen Helper",
+    "employerName": "Adyar Ananda Bhavan Branch",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.949553,
+      "lng": 79.157553
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_KITCHEN_ASSIST",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PREP"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1230,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0176",
+    "title": "Catering Assistant (Immediate Joining)",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.927537,
+      "lng": 79.139883
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_CATERING_OPS",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_TEAM_COORDINATION"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 15500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        6
+      ]
+    },
+    "hoursPerWeek": 26,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0177",
+    "title": "Field Sales Executive",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.933374,
+      "lng": 79.110692
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_COMMUNICATION",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_NEGOTIATION",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 20500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0178",
+    "title": "Hair Stylist (Part-time)",
+    "employerName": "Cut Above Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.961718,
+      "lng": 79.160244
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_HAIRCUTTING",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPSELLING"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 32,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0179",
+    "title": "Garment Machine Operator",
+    "employerName": "Krishna Associates",
+    "employerType": "other",
+    "location": {
+      "lat": 12.910146,
+      "lng": 79.124651
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_SEWING_MACHINE_OP",
+      "SKILL_QUALITY_CHECK",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 11000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 420,
+      "endMin": 780,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0180",
+    "title": "Housekeeping Staff (Part-time)",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.967023,
+      "lng": 79.130284
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 5500,
+    "salaryMax": 8000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 21,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0181",
+    "title": "Two-wheeler Mechanic (Immediate Joining)",
+    "employerName": "RK Motors",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.972615,
+      "lng": 79.142131
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0182",
+    "title": "Creche Assistant (Part-time)",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.910314,
+      "lng": 79.128513
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_CHILDCARE",
+      "SKILL_FIRST_AID",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 5500,
+    "salaryMax": 9000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 25,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0183",
+    "title": "CSC / Online Services Operator",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.926785,
+      "lng": 79.137395
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_ONLINE_FORMS",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_PRINTER_SCANNER",
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0184",
+    "title": "Shop Supervisor - Trainee",
+    "employerName": "Anbu Mini Mart",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.918648,
+      "lng": 79.130604
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_RETAIL_OPS",
+      "SKILL_SUPERVISION",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_OPENING_CLOSING"
+    ],
+    "salaryMin": 15500,
+    "salaryMax": 20500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 57,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0185",
+    "title": "Store Assistant",
+    "employerName": "Lakshmi Super Market",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.893041,
+      "lng": 79.12932
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0186",
+    "title": "Cook - Trainee",
+    "employerName": "Hotel Grand Vellore",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.963181,
+      "lng": 79.139371
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_QUALITY_CHECK"
+    ],
+    "preferredSkills": [
+      "SKILL_CATERING_OPS"
+    ],
+    "salaryMin": 15500,
+    "salaryMax": 23500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 24,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0187",
+    "title": "Kitchen Helper",
+    "employerName": "Chennai Cafe",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.978825,
+      "lng": 79.153049
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_KITCHEN_ASSIST",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PREP"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 540,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0188",
+    "title": "Salon Front Desk (Immediate Joining)",
+    "employerName": "Glow Beauty Parlour",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.920523,
+      "lng": 79.138427
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_CASH_HANDLING",
+      "SKILL_CUSTOMER_DATA_MGMT"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SOCIAL_MEDIA_BASIC"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 810,
+      "endMin": 1230,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0189",
+    "title": "Customer Support Executive - Trainee",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.940727,
+      "lng": 79.146452
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_COMPLAINT_HANDLING",
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0190",
+    "title": "Parcel & Packing Staff (Immediate Joining)",
+    "employerName": "Sangeetha Restaurant",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.893672,
+      "lng": 79.155773
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_FOOD_PACKAGING",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_ORDER_MANAGEMENT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 9000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0191",
+    "title": "Evening Counter Staff (Immediate Joining)",
+    "employerName": "Muthu Traders",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.95392,
+      "lng": 79.152329
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 11000,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0192",
+    "title": "Office Assistant (Immediate Joining)",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.934852,
+      "lng": 79.106541
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS",
+      "SKILL_PRINTER_SCANNER"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0193",
+    "title": "Restaurant Server",
+    "employerName": "Saravana Mess",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.88487,
+      "lng": 79.132695
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_TABLE_SERVICE",
+      "SKILL_ORDER_MANAGEMENT",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0194",
+    "title": "Salon Assistant (Immediate Joining)",
+    "employerName": "Beauty Bliss",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.970573,
+      "lng": 79.148548
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_BEAUTY_SERVICES",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_HOUSEKEEPING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 810,
+      "endMin": 1230,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0195",
+    "title": "Restaurant Server",
+    "employerName": "Adyar Ananda Bhavan Branch",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.960327,
+      "lng": 79.147939
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_TABLE_SERVICE",
+      "SKILL_ORDER_MANAGEMENT",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0196",
+    "title": "Billing & GST Executive",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.91417,
+      "lng": 79.111574
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_GST_FILING",
+      "SKILL_TALLY_BASIC",
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "preferredSkills": [
+      "SKILL_CASHLESS_RECON"
+    ],
+    "salaryMin": 16000,
+    "salaryMax": 21000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0197",
+    "title": "Clinic Front Desk",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.937276,
+      "lng": 79.133483
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_DATA_MGMT",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0198",
+    "title": "Salon Front Desk - Trainee",
+    "employerName": "Cut Above Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.917433,
+      "lng": 79.122236
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_CASH_HANDLING",
+      "SKILL_CUSTOMER_DATA_MGMT"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SOCIAL_MEDIA_BASIC"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0199",
+    "title": "Beautician (Part-time)",
+    "employerName": "Trends Unisex Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.932753,
+      "lng": 79.11605
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_BEAUTY_SERVICES",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_MEHENDI",
+      "SKILL_SOCIAL_MEDIA_BASIC"
+    ],
+    "salaryMin": 7500,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 32,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0200",
+    "title": "Tailor",
+    "employerName": "Vel Solutions",
+    "employerType": "other",
+    "location": {
+      "lat": 12.899099,
+      "lng": 79.145837
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_TAILORING",
+      "SKILL_SEWING_MACHINE_OP"
+    ],
+    "preferredSkills": [
+      "SKILL_EMBROIDERY",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0201",
+    "title": "Bakery Counter Assistant - Trainee",
+    "employerName": "Hot Breads Corner",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.93826,
+      "lng": 79.127223
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_BAKERY_COUNTER",
+      "SKILL_CASH_HANDLING",
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 9500,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 900,
+      "endMin": 1260,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0202",
+    "title": "Beautician",
+    "employerName": "Cut Above Salon",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.932025,
+      "lng": 79.120941
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_BEAUTY_SERVICES",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_MEHENDI",
+      "SKILL_SOCIAL_MEDIA_BASIC"
+    ],
+    "salaryMin": 13500,
+    "salaryMax": 19500,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0203",
+    "title": "Baker's Assistant (Part-time)",
+    "employerName": "Iyengar Bakery",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.963345,
+      "lng": 79.137779
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 7500,
+    "salaryMax": 11000,
+    "shift": {
+      "startMin": 360,
+      "endMin": 720,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0204",
+    "title": "Pharmacy Stock Assistant",
+    "employerName": "Apollo Pharmacy Franchise",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.895614,
+      "lng": 79.139035
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_BARCODE_SCANNING",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_STOCK_AUDIT"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 15500,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0205",
+    "title": "Online Store Operations (Immediate Joining)",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.963093,
+      "lng": 79.123814
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_ECOM_LISTING",
+      "SKILL_PHOTO_EDITING_BASIC",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "preferredSkills": [
+      "SKILL_ONLINE_FORMS"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0206",
+    "title": "Billing & GST Executive - Trainee",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.922653,
+      "lng": 79.128684
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_GST_FILING",
+      "SKILL_TALLY_BASIC",
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "preferredSkills": [
+      "SKILL_CASHLESS_RECON"
+    ],
+    "salaryMin": 16000,
+    "salaryMax": 21000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0207",
+    "title": "Pharmacy Assistant",
+    "employerName": "Sri Sai Medicals",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.940031,
+      "lng": 79.134403
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0208",
+    "title": "Two-wheeler Mechanic (Part-time)",
+    "employerName": "Ganesh Auto Care",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.914392,
+      "lng": 79.120697
+    },
+    "areaName": "Arcot Road",
+    "requiredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 11500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0209",
+    "title": "CSC / Online Services Operator (Part-time)",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.94207,
+      "lng": 79.121689
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_ONLINE_FORMS",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_PRINTER_SCANNER",
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 6500,
+    "salaryMax": 9500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0210",
+    "title": "Accounts Assistant (Part-time)",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.97139,
+      "lng": 79.147078
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_TALLY_BASIC",
+      "SKILL_GST_FILING",
+      "SKILL_EXCEL_BASIC"
+    ],
+    "preferredSkills": [
+      "SKILL_BOOKKEEPING"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0211",
+    "title": "Customer Support Executive",
+    "employerName": "Anbu Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.951318,
+      "lng": 79.157451
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_COMPLAINT_HANDLING",
+      "SKILL_SPOKEN_ENGLISH_BASIC",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS"
+    ],
+    "salaryMin": 14500,
+    "salaryMax": 19500,
+    "shift": {
+      "startMin": 780,
+      "endMin": 1200,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0212",
+    "title": "Data Entry Operator (Part-time)",
+    "employerName": "Vellore Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.962111,
+      "lng": 79.163306
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_TYPING_ENGLISH"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING"
+    ],
+    "salaryMin": 7500,
+    "salaryMax": 11000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0213",
+    "title": "Delivery Executive",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.95686,
+      "lng": 79.128383
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 17500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0214",
+    "title": "Service Advisor - Trainee",
+    "employerName": "Ganesh Auto Care",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.939902,
+      "lng": 79.153582
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_COMPLAINT_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR"
+    ],
+    "salaryMin": 14500,
+    "salaryMax": 19500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0215",
+    "title": "Maths & Science Tutor - Trainee",
+    "employerName": "Katpadi Study Circle",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.959094,
+      "lng": 79.138598
+    },
+    "areaName": "Konavattam",
+    "requiredSkills": [
+      "SKILL_TUTORING_SECONDARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 18000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0216",
+    "title": "Promoter / Brand Ambassador",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.905095,
+      "lng": 79.145667
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_BASIC_MARKETING",
+      "SKILL_COMMUNICATION",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 810,
+      "endMin": 1230,
+      "days": [
+        0,
+        6
+      ]
+    },
+    "hoursPerWeek": 23,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0217",
+    "title": "Dispatch Clerk",
+    "employerName": "Vellore Logistics Hub",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.89667,
+      "lng": 79.144414
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_DISPATCH_DOCS",
+      "SKILL_EXCEL_BASIC",
+      "SKILL_FILE_RECORDKEEPING"
+    ],
+    "preferredSkills": [
+      "SKILL_BARCODE_SCANNING"
+    ],
+    "salaryMin": 14500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0218",
+    "title": "Office Assistant",
+    "employerName": "Anbu Agencies",
+    "employerType": "other",
+    "location": {
+      "lat": 12.941976,
+      "lng": 79.156227
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS",
+      "SKILL_PRINTER_SCANNER"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0219",
+    "title": "Clinic Front Desk",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.886485,
+      "lng": 79.132593
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_DATA_MGMT",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 12000,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 33,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0220",
+    "title": "Evening Counter Staff (Immediate Joining)",
+    "employerName": "Muthu Traders",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.949256,
+      "lng": 79.167165
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPI_DIGITAL_PAY"
+    ],
+    "salaryMin": 8500,
+    "salaryMax": 11000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 33,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0221",
+    "title": "Workshop Helper (Immediate Joining)",
+    "employerName": "Speed Garage",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.908868,
+      "lng": 79.144621
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_LOADING_UNLOADING"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0222",
+    "title": "Pharmacy Assistant - Trainee",
+    "employerName": "Sri Sai Medicals",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.969003,
+      "lng": 79.132454
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0223",
+    "title": "Forklift Operator - Trainee",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.892618,
+      "lng": 79.150662
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_FORKLIFT_OP",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_WAREHOUSE_OPS"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 14000,
+    "salaryMax": 19000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0224",
+    "title": "Catering Assistant",
+    "employerName": "Adyar Ananda Bhavan Branch",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.943771,
+      "lng": 79.11701
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_CATERING_OPS",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_TEAM_COORDINATION"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        6
+      ]
+    },
+    "hoursPerWeek": 16,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0225",
+    "title": "Office Assistant - Trainee",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.959933,
+      "lng": 79.142386
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS",
+      "SKILL_PRINTER_SCANNER"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0226",
+    "title": "Hair Stylist - Trainee",
+    "employerName": "Beauty Bliss",
+    "employerType": "salon",
+    "location": {
+      "lat": 12.9243,
+      "lng": 79.123485
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_HAIRCUTTING",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_UPSELLING"
+    ],
+    "salaryMin": 14000,
+    "salaryMax": 21000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0227",
+    "title": "Evening Delivery Rider (Immediate Joining)",
+    "employerName": "QuickShip Depot",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.960898,
+      "lng": 79.15561
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "preferredSkills": [
+      "SKILL_ROUTE_PLANNING"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0228",
+    "title": "Baker's Assistant (Immediate Joining)",
+    "employerName": "Cake Studio Vellore",
+    "employerType": "bakery",
+    "location": {
+      "lat": 12.972613,
+      "lng": 79.121987
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FOOD_PREP",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_FOOD_PACKAGING"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 360,
+      "endMin": 720,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0229",
+    "title": "Mobile Repair Technician (Part-time)",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.888764,
+      "lng": 79.132974
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_MOBILE_REPAIR",
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_MANUAL"
+    ],
+    "salaryMin": 7000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 27,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0230",
+    "title": "Restaurant Cashier",
+    "employerName": "Anjappar Branch",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.936521,
+      "lng": 79.170916
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_CASH_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_CASHLESS_RECON"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16500,
+    "shift": {
+      "startMin": 1020,
+      "endMin": 1380,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0231",
+    "title": "Warehouse Assistant - Trainee",
+    "employerName": "Sree Distributors",
+    "employerType": "warehouse",
+    "location": {
+      "lat": 12.919948,
+      "lng": 79.13792
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_WAREHOUSE_OPS",
+      "SKILL_LOADING_UNLOADING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [
+      "SKILL_BARCODE_SCANNING"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0232",
+    "title": "Store Assistant",
+    "employerName": "Vasan Provisions",
+    "employerType": "kirana",
+    "location": {
+      "lat": 12.939883,
+      "lng": 79.12782
+    },
+    "areaName": "Viruthampet",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING",
+      "SKILL_ARITHMETIC"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 9000,
+    "salaryMax": 12000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0233",
+    "title": "Creche Assistant (Part-time)",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.935555,
+      "lng": 79.124242
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_CHILDCARE",
+      "SKILL_FIRST_AID",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 5500,
+    "salaryMax": 9000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 20,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0234",
+    "title": "Field Sales Executive",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.912132,
+      "lng": 79.125584
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_COMMUNICATION",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_NEGOTIATION",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 20500,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0235",
+    "title": "Workshop Helper",
+    "employerName": "RK Motors",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.885876,
+      "lng": 79.122223
+    },
+    "areaName": "Bagayam",
+    "requiredSkills": [
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_LOADING_UNLOADING"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0236",
+    "title": "Clinic Front Desk",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.931773,
+      "lng": 79.127294
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_FRONT_DESK",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_CUSTOMER_DATA_MGMT",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_BILLING_SOFTWARE"
+    ],
+    "salaryMin": 11500,
+    "salaryMax": 15500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0237",
+    "title": "Office Assistant",
+    "employerName": "Katpadi Services",
+    "employerType": "other",
+    "location": {
+      "lat": 12.946418,
+      "lng": 79.154372
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_EMAIL_COMMS",
+      "SKILL_PRINTER_SCANNER"
+    ],
+    "salaryMin": 10500,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0238",
+    "title": "Workshop Helper",
+    "employerName": "Ganesh Auto Care",
+    "employerType": "auto_workshop",
+    "location": {
+      "lat": 12.965028,
+      "lng": 79.145145
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_LOADING_UNLOADING"
+    ],
+    "preferredSkills": [
+      "SKILL_TWO_WHEELER_REPAIR"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 11000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0239",
+    "title": "Field Sales Executive (Part-time)",
+    "employerName": "Sakthi Enterprises",
+    "employerType": "other",
+    "location": {
+      "lat": 12.972164,
+      "lng": 79.138476
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_FIELD_SALES",
+      "SKILL_COMMUNICATION",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "preferredSkills": [
+      "SKILL_NEGOTIATION",
+      "SKILL_SMARTPHONE_LITERACY"
+    ],
+    "salaryMin": 8000,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 28,
+    "hardEligibility": [
+      "two_wheeler_licence"
+    ],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0240",
+    "title": "Housekeeping Staff",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.915246,
+      "lng": 79.134371
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_HOUSEKEEPING",
+      "SKILL_SAFETY_COMPLIANCE"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 10000,
+    "salaryMax": 13000,
+    "shift": {
+      "startMin": 480,
+      "endMin": 840,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0241",
+    "title": "Pharmacy Assistant (Immediate Joining)",
+    "employerName": "Sri Sai Medicals",
+    "employerType": "pharmacy",
+    "location": {
+      "lat": 12.910051,
+      "lng": 79.140053
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_PHARMACY_ASSIST",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_CASH_HANDLING"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_INVENTORY_MGMT"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 14000,
+    "shift": {
+      "startMin": 570,
+      "endMin": 1080,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 51,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0242",
+    "title": "Medical Shop Counter Staff",
+    "employerName": "Annai Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.930259,
+      "lng": 79.139719
+    },
+    "areaName": "Gandhi Nagar",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_PHARMACY_ASSIST"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 16000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0243",
+    "title": "Medical Shop Counter Staff",
+    "employerName": "Sree Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.920651,
+      "lng": 79.131284
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_PHARMACY_ASSIST"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 39,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0244",
+    "title": "Security Guard (Night) - Trainee",
+    "employerName": "Sri Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.950122,
+      "lng": 79.168851
+    },
+    "areaName": "Sathuvachari",
+    "requiredSkills": [
+      "SKILL_CCTV_MONITORING",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_PUNCTUALITY_SHIFT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 1200,
+      "endMin": 1680,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 48,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0245",
+    "title": "School Office Assistant - Trainee",
+    "employerName": "Vellore Public School",
+    "employerType": "school_office",
+    "location": {
+      "lat": 12.926489,
+      "lng": 79.137132
+    },
+    "areaName": "Chittoor Bus Stand",
+    "requiredSkills": [
+      "SKILL_DATA_ENTRY",
+      "SKILL_FILE_RECORDKEEPING",
+      "SKILL_COMPUTER_BASICS"
+    ],
+    "preferredSkills": [
+      "SKILL_WORD_PROCESSING",
+      "SKILL_SPOKEN_TAMIL"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 15000,
+    "shift": {
+      "startMin": 510,
+      "endMin": 870,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 34,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0246",
+    "title": "Home Elder Care Attendant (Immediate Joining)",
+    "employerName": "Sri Venkateswara Traders",
+    "employerType": "other",
+    "location": {
+      "lat": 12.961514,
+      "lng": 79.123937
+    },
+    "areaName": "Katpadi",
+    "requiredSkills": [
+      "SKILL_ELDER_CARE",
+      "SKILL_FIRST_AID"
+    ],
+    "preferredSkills": [
+      "SKILL_PATIENT_ASSIST"
+    ],
+    "salaryMin": 12500,
+    "salaryMax": 18500,
+    "shift": {
+      "startMin": 510,
+      "endMin": 1020,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 54,
+    "hardEligibility": [],
+    "minExperienceMonths": 12,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0247",
+    "title": "Medical Shop Counter Staff - Trainee",
+    "employerName": "Sree Medicals",
+    "employerType": "medical_shop",
+    "location": {
+      "lat": 12.922419,
+      "lng": 79.12409
+    },
+    "areaName": "Vellore Town",
+    "requiredSkills": [
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_BILLING_SOFTWARE",
+      "SKILL_PRODUCT_KNOWLEDGE"
+    ],
+    "preferredSkills": [
+      "SKILL_PHARMACY_ASSIST"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 14500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 45,
+    "hardEligibility": [],
+    "minExperienceMonths": 3,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0248",
+    "title": "Tea / Coffee Counter Staff (Immediate Joining)",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.916813,
+      "lng": 79.123742
+    },
+    "areaName": "Kosapet",
+    "requiredSkills": [
+      "SKILL_BARISTA",
+      "SKILL_CASH_HANDLING",
+      "SKILL_FOOD_HYGIENE"
+    ],
+    "preferredSkills": [
+      "SKILL_CUSTOMER_HANDLING"
+    ],
+    "salaryMin": 10000,
+    "salaryMax": 13500,
+    "shift": {
+      "startMin": 360,
+      "endMin": 720,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 42,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0249",
+    "title": "Parcel & Packing Staff (Immediate Joining)",
+    "employerName": "Hotel Aryaas",
+    "employerType": "hotel",
+    "location": {
+      "lat": 12.961297,
+      "lng": 79.163566
+    },
+    "areaName": "VIT Main Gate",
+    "requiredSkills": [
+      "SKILL_FOOD_PACKAGING",
+      "SKILL_FOOD_HYGIENE",
+      "SKILL_ORDER_MANAGEMENT"
+    ],
+    "preferredSkills": [],
+    "salaryMin": 9500,
+    "salaryMax": 12500,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 36,
+    "hardEligibility": [],
+    "minExperienceMonths": 0,
+    "isSynthetic": true
+  },
+  {
+    "id": "JOB_0250",
+    "title": "Maths & Science Tutor - Trainee",
+    "employerName": "Sri Sai Coaching",
+    "employerType": "tuition_centre",
+    "location": {
+      "lat": 12.891934,
+      "lng": 79.145828
+    },
+    "areaName": "Thorapadi",
+    "requiredSkills": [
+      "SKILL_TUTORING_SECONDARY",
+      "SKILL_COMMUNICATION"
+    ],
+    "preferredSkills": [
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ],
+    "salaryMin": 11000,
+    "salaryMax": 17000,
+    "shift": {
+      "startMin": 960,
+      "endMin": 1320,
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "hoursPerWeek": 30,
+    "hardEligibility": [],
+    "minExperienceMonths": 6,
+    "isSynthetic": true
+  }
+]
