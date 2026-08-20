@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"title\": \"Warehouse Assistant\",\n  \"employerType\": \"warehouse\",\n  \"rawRequiredSkills\": [\n    \"loading and unloading\",\n    \"warehouse organization\",\n    \"adhering to safety rules\"\n  ],\n  \"rawPreferredSkills\": [],\n  \"salaryMin\": 10000,\n  \"salaryMax\": 14000,\n  \"shift\": {\n    \"startMin\": 540,\n    \"endMin\": 1050,\n    \"days\": [1, 2, 3, 4, 5, 6]\n  },\n  \"hoursPerWeek\": 51,\n  \"minExperienceMonths\": 0,\n  \"hardEligibility\": []\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "job-extraction",
+  "demoVacancy": "DEMO_VACANCY_GODOWN"
+}
