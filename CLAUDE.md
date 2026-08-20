@@ -120,6 +120,16 @@ A job is infeasible if ANY of these fire:
 
 
 
+`schedule_conflict` fires unless the candidate's window covers >=75% of the
+
+shift duration and >=50% of the shift's rostered days. Not full containment
+
+(too strict — excludes workable partial shifts) and not any-overlap (too loose
+
+— a 9-6 job would pass for someone free only 5-9).
+
+
+
 Output: the `feasible` job set. This set is the \*\*denominator for everything
 
 else\*\*, including jobs-unlocked.
@@ -538,3 +548,13 @@ The defensible claim is the objective function:
 
 
 
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

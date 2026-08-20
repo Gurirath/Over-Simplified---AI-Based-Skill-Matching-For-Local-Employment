@@ -17,9 +17,45 @@ import type {
   NearMissJob,
 } from "./types";
 
+function jobSalaryMidpoint(job: Job): number {
+  return (job.salaryMin + job.salaryMax) / 2;
+}
+
+function median(values: number[]): number | null {
+  if (values.length === 0) return null;
+
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+
+  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
+}
+
+/** All non-empty subsets of `items`, size 1 up to `k`, in deterministic order. */
+function subsetsUpToSize(items: string[], k: number): string[][] {
+  const results: string[][] = [];
+
+  function combinations(start: number, size: number, chosen: string[]): void {
+    if (size === 0) {
+      results.push([...chosen]);
+      return;
+    }
+    for (let i = start; i <= items.length - size; i++) {
+      chosen.push(items[i]);
+      combinations(i + 1, size - 1, chosen);
+      chosen.pop();
+    }
+  }
+
+  for (let size = 1; size <= k; size++) {
+    combinations(0, size, []);
+  }
+
+  return results;
+}
+
 /** requiredSkills(j) \ heldSkillIds — skills the candidate still needs for job j. */
 export function missingSkills(job: Job, heldSkillIds: Set<string>): string[] {
-  throw new Error("Not implemented");
+  return job.requiredSkills.filter((skillId) => !heldSkillIds.has(skillId));
 }
 
 /** Snapshot of qualified/feasible counts for a given held-skill set. */
@@ -27,12 +63,27 @@ export function computeOpportunitySnapshot(
   feasibleJobs: Job[],
   heldSkillIds: Set<string>
 ): OpportunitySnapshot {
-  throw new Error("Not implemented");
+  const qualifiedJobs = feasibleJobs.filter((job) => missingSkills(job, heldSkillIds).length === 0);
+
+  return {
+    feasibleCount: feasibleJobs.length,
+    qualifiedCount: qualifiedJobs.length,
+    qualifiedJobIds: qualifiedJobs.map((job) => job.id),
+    medianSalary: median(qualifiedJobs.map(jobSalaryMidpoint)),
+  };
 }
 
 /** Prune the skill universe to skills appearing in at least one missing(j). */
 export function pruneSkillUniverse(feasibleJobs: Job[], heldSkillIds: Set<string>): string[] {
-  throw new Error("Not implemented");
+  const universe = new Set<string>();
+
+  for (const job of feasibleJobs) {
+    for (const skillId of missingSkills(job, heldSkillIds)) {
+      universe.add(skillId);
+    }
+  }
+
+  return [...universe].sort();
 }
 
 /**
@@ -46,7 +97,45 @@ export function recommendSkillBundles(
   learnHoursBySkillId: Map<string, number>,
   k: number
 ): SkillBundleRecommendation[] {
-  throw new Error("Not implemented");
+  const universe = pruneSkillUniverse(feasibleJobs, heldSkillIds);
+  const baseline = computeOpportunitySnapshot(feasibleJobs, heldSkillIds);
+  const baselineQualified = new Set(baseline.qualifiedJobIds);
+
+  const scored = subsetsUpToSize(universe, k).map((skillIds) => {
+    const candidateSkillIds = new Set([...heldSkillIds, ...skillIds]);
+    const after = computeOpportunitySnapshot(feasibleJobs, candidateSkillIds);
+
+    const newlyUnlockedJobIds = after.qualifiedJobIds.filter((id) => !baselineQualified.has(id));
+    const newlyUnlockedJobs = feasibleJobs.filter((job) => newlyUnlockedJobIds.includes(job.id));
+    const totalLearnHours = skillIds.reduce(
+      (sum, skillId) => sum + (learnHoursBySkillId.get(skillId) ?? 0),
+      0
+    );
+    const jobsUnlocked = newlyUnlockedJobIds.length;
+
+    const bundle: SkillBundleRecommendation = {
+      skillIds,
+      jobsUnlocked,
+      newlyUnlockedJobIds,
+      totalLearnHours,
+      jobsPer10Hours: totalLearnHours > 0 ? (jobsUnlocked / totalLearnHours) * 10 : 0,
+      medianSalaryBefore: baseline.medianSalary,
+      medianSalaryAfter: after.medianSalary,
+    };
+
+    const tieBreakMedian = median(newlyUnlockedJobs.map(jobSalaryMidpoint)) ?? -Infinity;
+
+    return { bundle, tieBreakMedian };
+  });
+
+  scored.sort((a, b) => {
+    if (b.bundle.jobsPer10Hours !== a.bundle.jobsPer10Hours) {
+      return b.bundle.jobsPer10Hours - a.bundle.jobsPer10Hours;
+    }
+    return b.tieBreakMedian - a.tieBreakMedian;
+  });
+
+  return scored.map((s) => s.bundle);
 }
 
 /** Feasible jobs where exactly one required skill is missing. */
@@ -54,5 +143,14 @@ export function computeNearMissFrontier(
   feasibleJobs: Job[],
   heldSkillIds: Set<string>
 ): NearMissJob[] {
-  throw new Error("Not implemented");
+  const frontier: NearMissJob[] = [];
+
+  for (const job of feasibleJobs) {
+    const missing = missingSkills(job, heldSkillIds);
+    if (missing.length === 1) {
+      frontier.push({ jobId: job.id, missingSkillId: missing[0] });
+    }
+  }
+
+  return frontier;
 }
