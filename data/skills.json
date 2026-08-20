@@ -775,10 +775,13 @@
     "id": "SKILL_FILE_RECORDKEEPING",
     "canonicalName": "Filing & Recordkeeping",
     "aliases": [
+      "document management",
       "documentation",
       "file rakhna",
       "file recordkeeping",
       "filing",
+      "office admin",
+      "office administration",
       "paperwork",
       "record keeping",
       "recordkeeping",
@@ -1065,6 +1068,7 @@
     "canonicalName": "Order Management",
     "aliases": [
       "kot",
+      "order coordination",
       "order handle karna",
       "order lena",
       "order management",
@@ -1155,8 +1159,11 @@
     "aliases": [
       "catering",
       "catering work",
+      "event coordination",
       "event food",
+      "event setup",
       "function catering",
+      "function setup",
       "mess work"
     ],
     "category": "hospitality_food",

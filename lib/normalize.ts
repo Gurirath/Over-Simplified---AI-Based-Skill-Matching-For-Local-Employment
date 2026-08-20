@@ -27,6 +27,7 @@ const STOPWORDS = new Set([
   "basic", "basics", "simple", "general", "work", "working", "job", "skill",
   "skills", "knowledge", "ka", "ki", "ke", "ko", "se", "mein", "hai", "hoon",
   "karna", "karta", "karti", "kar", "raha", "rahi", "bhi", "aur",
+  "assistance", "assistant", "help",
 ]);
 
 export function normalizeText(s: string): string {
@@ -50,6 +51,14 @@ const aliasIndex = new Map<string, string>();
 const canonicalIndex = new Map<string, string>();
 const tokenIndex: Array<{ id: string; tokens: Set<string>; text: string }> = [];
 
+/**
+ * token -> set of skills whose ALIASES use that token. Powers the
+ * containment-stage semantic guard below: a leftover token that some other
+ * skill claims as discriminating is a sign the phrase means something more
+ * specific than the short alias that happened to match.
+ */
+const tokenOwners = new Map<string, Set<string>>();
+
 for (const skill of SKILLS) {
   canonicalIndex.set(normalizeText(skill.canonicalName), skill.id);
   for (const alias of skill.aliases) {
@@ -60,6 +69,10 @@ for (const skill of SKILLS) {
     // overwrite, so behaviour stays deterministic.
     if (!aliasIndex.has(key)) aliasIndex.set(key, skill.id);
     tokenIndex.push({ id: skill.id, tokens: new Set(tokens(alias)), text: key });
+    for (const t of tokens(alias)) {
+      if (!tokenOwners.has(t)) tokenOwners.set(t, new Set());
+      tokenOwners.get(t)!.add(skill.id);
+    }
   }
   tokenIndex.push({
     id: skill.id,
@@ -96,22 +109,46 @@ export function normalizeSkillMention(input: string): NormalizationResult {
   const canon = canonicalIndex.get(key);
   if (canon) return { input, skillId: canon, stage: "exact_canonical" };
 
+  const inputTokens = new Set(tokens(input));
+
   // Containment: prefer the LONGEST matching alias, so "advanced excel"
   // beats "excel" rather than losing to it on iteration order.
   let bestContain: { id: string; len: number } | null = null;
   for (const entry of tokenIndex) {
     if (entry.text.length < 4) continue;
-    if (key.includes(entry.text) || entry.text.includes(key)) {
-      if (!bestContain || entry.text.length > bestContain.len) {
-        bestContain = { id: entry.id, len: entry.text.length };
+    const aliasInInput = key.includes(entry.text);
+    const inputInAlias = !aliasInInput && entry.text.includes(key);
+    if (!aliasInInput && !inputInAlias) continue;
+    if (aliasInInput) {
+      // A short/generic alias fully contained in a longer input can hijack a
+      // more specific phrase — "coordination" would otherwise match "order
+      // coordination" even though "order" changes the meaning. Reject the
+      // match if any leftover token (input minus the alias's own tokens) is
+      // discriminating for some OTHER skill. A leftover token nobody claims
+      // (e.g. "microsoft" in "Microsoft Excel") does not block the match.
+      let hijacked = false;
+      for (const t of inputTokens) {
+        if (entry.tokens.has(t)) continue;
+        const owners = tokenOwners.get(t);
+        if (!owners) continue;
+        for (const owner of owners) {
+          if (owner !== entry.id) {
+            hijacked = true;
+            break;
+          }
+        }
+        if (hijacked) break;
       }
+      if (hijacked) continue;
+    }
+    if (!bestContain || entry.text.length > bestContain.len) {
+      bestContain = { id: entry.id, len: entry.text.length };
     }
   }
   if (bestContain) {
     return { input, skillId: bestContain.id, stage: "containment" };
   }
 
-  const inputTokens = new Set(tokens(input));
   if (inputTokens.size === 0) return { input, skillId: null, stage: "unmatched" };
 
   let best: { id: string; score: number } | null = null;

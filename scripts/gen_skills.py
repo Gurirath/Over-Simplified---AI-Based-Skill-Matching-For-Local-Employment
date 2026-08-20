@@ -200,7 +200,8 @@ s("CCTV_MONITORING", "CCTV Monitoring", C_DA, [], 10, "free",
 s("FILE_RECORDKEEPING", "Filing & Recordkeeping", C_DA, [], 12, "free",
   "Organise and retrieve from a filing system", [
    "filing", "record keeping", "recordkeeping", "file recordkeeping",
-   "records", "records management", "file rakhna", "documentation", "paperwork"])
+   "records", "records management", "file rakhna", "documentation", "paperwork",
+   "document management", "office administration", "office admin"])
 
 # ── communication & language ──────────────────────────────────────────
 s("SPOKEN_TAMIL", "Spoken Tamil", C_CL, [], 0, "free",
@@ -264,7 +265,7 @@ s("TABLE_SERVICE", "Table Service", C_HF, ["CUSTOMER_HANDLING"], 20, "free",
 s("ORDER_MANAGEMENT", "Order Management", C_HF, [], 15, "free",
   "Take, sequence and track 10 orders", [
    "order management", "order taking", "order lena", "orders",
-   "order handle karna", "kot"])
+   "order handle karna", "kot", "order coordination"])
 s("KITCHEN_ASSIST", "Kitchen Assistance", C_HF, ["FOOD_HYGIENE"], 20, "free",
   "Prep, plate and clean-down cycle", [
    "kitchen helper", "kitchen assistant", "helper kitchen",
@@ -283,7 +284,7 @@ s("FOOD_PACKAGING", "Food Packaging", C_HF, ["FOOD_HYGIENE"], 10, "free",
 s("CATERING_OPS", "Catering Operations", C_HF, ["FOOD_PREP"], 30, "low",
   "Plan service for a 50-person event", [
    "catering", "catering work", "event food", "function catering",
-   "mess work"])
+   "mess work", "event setup", "function setup", "event coordination"])
 
 # ── trades ────────────────────────────────────────────────────────────
 s("ELECTRICAL_BASIC", "Basic Electrical Work", C_TR, [], 80, "medium",

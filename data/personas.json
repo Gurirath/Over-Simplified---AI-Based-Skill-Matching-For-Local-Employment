@@ -9,7 +9,6 @@
     "rawStory": "Main apne father ki provision shop mein help karti hoon last 3 years se. Customers ko handle karti hoon, unko saman dikhati hoon, rate batati hoon. Stock register maintain karti hoon aur bill bhi khud likhti hoon. Cash counter pe bhi baithti hoon, GPay se payment leti hoon. Tamil aur Hindi dono bol leti hoon. Computer nahi aata par phone theek se chala leti hoon.",
     "expectedSkillIds": [
       "SKILL_CUSTOMER_HANDLING",
-      "SKILL_PRODUCT_KNOWLEDGE",
       "SKILL_INVENTORY_MGMT",
       "SKILL_BILLING_MANUAL",
       "SKILL_CASH_HANDLING",
@@ -17,8 +16,8 @@
       "SKILL_SPOKEN_TAMIL",
       "SKILL_SPOKEN_HINDI",
       "SKILL_SMARTPHONE_LITERACY",
-      "SKILL_ARITHMETIC",
-      "SKILL_RETAIL_OPS"
+      "SKILL_RETAIL_OPS",
+      "SKILL_SALES_FLOOR"
     ],
     "constraints": {
       "minMonthlySalary": 11000,
@@ -44,14 +43,11 @@
     "rawStory": "I studied till 12th standard. For two years I worked in a small transport office. I used to maintain all the files and records, enter details in the computer, and type letters. I know basic Excel, I can make sheets with totals. I speak Tamil and some English. I have a cycle so I can travel around Vellore town.",
     "expectedSkillIds": [
       "SKILL_FILE_RECORDKEEPING",
-      "SKILL_COMPUTER_BASICS",
       "SKILL_TYPING_ENGLISH",
       "SKILL_EXCEL_BASIC",
-      "SKILL_WORD_PROCESSING",
       "SKILL_SPOKEN_TAMIL",
       "SKILL_SPOKEN_ENGLISH_BASIC",
-      "SKILL_COMMUNICATION",
-      "SKILL_ARITHMETIC"
+      "SKILL_DATA_ENTRY"
     ],
     "constraints": {
       "minMonthlySalary": 12000,
@@ -77,13 +73,11 @@
     "rawStory": "Evening time free irukku, so I want some part-time work. Ennaku cooking konjam theriyum, veetla ellame naan than pannuven. Amma oda catering ku help panniruken function time la, plates arrange panrathu, order paarthuka, cleaning ellam. Tamil pesuven, English konjam. Bike illa, walk or bus than.",
     "expectedSkillIds": [
       "SKILL_FOOD_PREP",
-      "SKILL_FOOD_HYGIENE",
       "SKILL_ORDER_MANAGEMENT",
       "SKILL_HOUSEKEEPING",
       "SKILL_CATERING_OPS",
       "SKILL_SPOKEN_TAMIL",
-      "SKILL_CUSTOMER_HANDLING",
-      "SKILL_TEAM_COORDINATION"
+      "SKILL_SPOKEN_ENGLISH_BASIC"
     ],
     "constraints": {
       "minMonthlySalary": 10000,
