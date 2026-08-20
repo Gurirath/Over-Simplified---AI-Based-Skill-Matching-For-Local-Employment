@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"sewing and tailoring\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"silai ka kaam karti hoon\"\n    },\n    {\n      \"rawSkillText\": \"garment alterations\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"blouse aur saree fall silti hoon\"\n    },\n    {\n      \"rawSkillText\": \"embroidery\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"kadhai bhi aata hai\"\n    },\n    {\n      \"rawSkillText\": \"zari work\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"zari work karti hoon\"\n    },\n    {\n      \"rawSkillText\": \"spoken Hindi\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Hindi aur Tamil dono aata hai\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Hindi aur Tamil dono aata hai\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_MEENA"
+}

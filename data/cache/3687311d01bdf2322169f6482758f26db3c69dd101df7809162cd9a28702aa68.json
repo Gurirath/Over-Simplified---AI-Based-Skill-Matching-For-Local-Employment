@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"loading and unloading\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Maal loading unloading karta hoon\"\n    },\n    {\n      \"rawSkillText\": \"stock counting\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"stock ginta hoon\"\n    },\n    {\n      \"rawSkillText\": \"forklift operation\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"forklift bhi chala leta hoon\"\n    },\n    {\n      \"rawSkillText\": \"document preparation\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Challan aur delivery papers bhi banata hoon\"\n    },\n    {\n      \"rawSkillText\": \"spoken Hindi\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Hindi bolta hoon\"\n    },\n    {\n      \"rawSkillText\": \"warehouse operations\",\n      \"tier\": \"implied\",\n      \"evidenceSpan\": \"Main godown mein kaam karta hoon 3 saal se\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_MANOJ"
+}

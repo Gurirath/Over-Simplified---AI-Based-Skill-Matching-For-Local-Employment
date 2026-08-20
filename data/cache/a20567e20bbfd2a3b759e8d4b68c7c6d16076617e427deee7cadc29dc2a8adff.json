@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"childcare\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"2 kulanthaigal paakuren\"\n    },\n    {\n      \"rawSkillText\": \"child feeding\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Kuzhandhaikku saapadu kudukurathu\"\n    },\n    {\n      \"rawSkillText\": \"child supervision\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"vilayattu vaikurathu\"\n    },\n    {\n      \"rawSkillText\": \"school pick up and drop\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"school kootitu polrathu ellam pandren\"\n    },\n    {\n      \"rawSkillText\": \"first aid\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"first aid theriyum\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Tamil nalla pesuven\"\n    },\n    {\n      \"rawSkillText\": \"spoken English\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"konjam English theriyum\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_LAKSHMI"
+}

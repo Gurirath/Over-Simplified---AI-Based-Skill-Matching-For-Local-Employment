@@ -23,6 +23,7 @@ import type {
   EmployerType,
 } from "./types";
 import { normalizeSkillMention, getSkill } from "./normalize";
+import type { NormalizationResult } from "./normalize";
 import { VERIFICATION_QUESTIONS, genericVerificationQuestion } from "./prompts";
 
 const TIERS: EvidenceTier[] = ["stated", "demonstrated", "implied"];
@@ -110,7 +111,8 @@ function locateSpan(
 
 export function ingestCandidateExtraction(
   raw: CandidateExtractionResponse,
-  story: string
+  story: string,
+  normalize: (mention: string) => NormalizationResult = normalizeSkillMention
 ): CandidateIngestResult {
   if (!raw || !Array.isArray(raw.extractions)) {
     throw new ExtractionError("Missing extractions array");
@@ -130,7 +132,7 @@ export function ingestCandidateExtraction(
       continue;
     }
 
-    const norm = normalizeSkillMention(e.rawSkillText);
+    const norm = normalize(e.rawSkillText);
     if (!norm.skillId) {
       unmatched.push(e.rawSkillText);
       continue;

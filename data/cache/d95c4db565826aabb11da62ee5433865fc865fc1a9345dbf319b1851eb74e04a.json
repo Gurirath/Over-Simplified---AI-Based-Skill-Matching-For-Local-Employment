@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"package delivery\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"parcel kondu poven\"\n    },\n    {\n      \"rawSkillText\": \"navigation\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Route ellam nalla theriyum\"\n    },\n    {\n      \"rawSkillText\": \"address location\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"address kandupudika mudiyum\"\n    },\n    {\n      \"rawSkillText\": \"motorcycle driving\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Bike license iruku\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Tamil pesuven\"\n    },\n    {\n      \"rawSkillText\": \"Hindi comprehension\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Hindi konjam puriyum\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_KARTHIK"
+}

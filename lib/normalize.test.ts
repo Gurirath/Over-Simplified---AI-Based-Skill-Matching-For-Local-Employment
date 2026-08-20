@@ -57,6 +57,21 @@ describe("normalizeSkillMention — containment semantic guard", () => {
     const result = normalizeSkillMention("sales assistance");
     expect(result.skillId).toBe("SKILL_SALES_FLOOR");
   });
+
+  it("still allows containment when the leftover token is ALSO owned by the candidate skill", () => {
+    // "making" is BILLING_MANUAL's via "bill making", but it's also
+    // BARISTA's own via "tea making" — it must not block "coffee" (BARISTA)
+    // from matching just because some other skill happens to share it too.
+    const result = normalizeSkillMention("coffee making");
+    expect(result.skillId).toBe("SKILL_BARISTA");
+  });
+
+  it("does not regress the sibling case sharing the same leftover token", () => {
+    // "making" is also BILLING_MANUAL's own token (via "bill making"), so
+    // "bill making" must still resolve to BILLING_MANUAL under the same fix.
+    const result = normalizeSkillMention("bill making");
+    expect(result.skillId).toBe("SKILL_BILLING_MANUAL");
+  });
 });
 
 describe("normalizeSkillMention — specific taxonomy regressions", () => {

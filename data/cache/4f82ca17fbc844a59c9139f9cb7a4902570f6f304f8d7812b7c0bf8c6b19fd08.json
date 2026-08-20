@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"customer handling\",\n      \"tier\": \"implied\",\n      \"evidenceSpan\": \"bakery counter pe kaam karta hoon\"\n    },\n    {\n      \"rawSkillText\": \"coffee making\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Coffee bhi banata hoon\"\n    },\n    {\n      \"rawSkillText\": \"cash handling\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"cash counter sambhalta hoon\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Tamil aur Hindi dono thoda thoda aata hai\"\n    },\n    {\n      \"rawSkillText\": \"spoken Hindi\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Tamil aur Hindi dono thoda thoda aata hai\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_VIGNESH"
+}

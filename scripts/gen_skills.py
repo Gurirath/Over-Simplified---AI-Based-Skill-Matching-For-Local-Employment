@@ -40,7 +40,8 @@ s("CUSTOMER_HANDLING", "Customer Handling", C_RS, [], 12, "free",
   "Short role-play with a mock customer", [
    "customer handling", "customer service", "customer handle karna",
    "grahak se baat", "customer se baat karna", "dealing with customers",
-   "handling customers", "customer support", "grahak sambhalna"])
+   "handling customers", "customer support", "grahak sambhalna",
+   "customer communication"])
 s("SALES_FLOOR", "Sales (Floor / Counter)", C_RS, ["CUSTOMER_HANDLING"], 20, "free",
   "Mock sales conversation, objection handling", [
    "sales", "selling", "salesman", "saleswoman", "bikri", "bechna",
@@ -310,7 +311,8 @@ s("AC_REFRIGERATION", "AC & Refrigeration Repair", C_TR, ["ELECTRICAL_BASIC"], 1
 s("TWO_WHEELER_REPAIR", "Two-wheeler Repair", C_TR, [], 100, "medium",
   "Service and diagnose a scooter", [
    "bike mechanic", "two wheeler repair", "scooter repair",
-   "bike repair", "mechanic", "gaadi theek karna"])
+   "bike repair", "mechanic", "gaadi theek karna",
+   "motorcycle repair", "motorcycle mechanic", "motorcycle engine repair"])
 s("FOUR_WHEELER_REPAIR", "Four-wheeler Repair", C_TR, ["TWO_WHEELER_REPAIR"], 140, "high",
   "Diagnose and service a car", [
    "car mechanic", "four wheeler repair", "car repair", "auto mechanic",
@@ -364,7 +366,8 @@ s("DELIVERY_OPS", "Delivery Operations", C_LG, ["SMARTPHONE_LITERACY"], 12, "fre
    "food delivery", "parcel delivery", "rider"])
 s("ROUTE_PLANNING", "Route Planning", C_LG, ["DELIVERY_OPS"], 15, "free",
   "Sequence 15 drops efficiently", [
-   "route planning", "route", "delivery route", "trip planning"])
+   "route planning", "route", "delivery route", "trip planning",
+   "navigation", "address location"])
 s("WAREHOUSE_OPS", "Warehouse Operations", C_LG, ["INVENTORY_MGMT"], 25, "low",
   "Pick, pack and dispatch to a pick list", [
    "warehouse", "godown", "godown work", "warehouse work",
@@ -376,7 +379,7 @@ s("LOADING_UNLOADING", "Loading & Unloading", C_LG, [], 6, "free",
 s("DISPATCH_DOCS", "Dispatch Documentation", C_LG, ["FILE_RECORDKEEPING"], 18, "low",
   "Prepare a delivery challan and e-way entry", [
    "dispatch", "challan", "delivery challan", "e way bill",
-   "dispatch papers", "gate pass"])
+   "dispatch papers", "gate pass", "documentation preparation"])
 s("BARCODE_SCANNING", "Barcode / Scanner Operation", C_LG, [], 5, "free",
   "Scan and reconcile a 50-item batch", [
    "barcode", "barcode scanning", "barcode scan karna", "handheld scanner"])
@@ -392,7 +395,7 @@ s("CHILDCARE", "Childcare", C_CA, [], 40, "low",
 s("ELDER_CARE", "Elder Care", C_CA, [], 60, "medium",
   "Mobility assistance and routine care demo", [
    "elder care", "old age care", "caretaker", "budhon ki dekhbhal",
-   "attendant", "home nurse"])
+   "attendant", "home nurse", "elderly care", "elderly assistance"])
 s("FIRST_AID", "First Aid", C_CA, [], 16, "low",
   "Certified first-aid assessment", [
    "first aid", "prathmik chikitsa", "cpr", "emergency care",

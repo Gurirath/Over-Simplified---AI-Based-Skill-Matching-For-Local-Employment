@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"elderly care\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"buzurg dada ji ki dekhbhal karta hoon\"\n    },\n    {\n      \"rawSkillText\": \"patient bathing\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Unko nahlana\"\n    },\n    {\n      \"rawSkillText\": \"assisted feeding\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"khana khilana\"\n    },\n    {\n      \"rawSkillText\": \"medication management\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"dawai time pe dena\"\n    },\n    {\n      \"rawSkillText\": \"spoken Hindi\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Hindi bolta hoon\"\n    },\n    {\n      \"rawSkillText\": \"English comprehension\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"thoda English samajh leta hoon\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_RAJESH"
+}

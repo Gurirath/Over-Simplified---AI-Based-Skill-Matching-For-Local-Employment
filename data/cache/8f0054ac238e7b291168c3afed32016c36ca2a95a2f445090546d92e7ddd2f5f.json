@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"table service\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Table serve pandrathu\"\n    },\n    {\n      \"rawSkillText\": \"order taking\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"order eduthukurathu\"\n    },\n    {\n      \"rawSkillText\": \"billing\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"bill kodukurathu\"\n    },\n    {\n      \"rawSkillText\": \"customer service\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Guest kitta polite ah pesuven\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Tamil nalla pesuven\"\n    },\n    {\n      \"rawSkillText\": \"spoken English\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"English konjam\"\n    },\n    {\n      \"rawSkillText\": \"restaurant operations\",\n      \"tier\": \"implied\",\n      \"evidenceSpan\": \"hotel la waiter ah velai pathutu iruken\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_ANITHA"
+}

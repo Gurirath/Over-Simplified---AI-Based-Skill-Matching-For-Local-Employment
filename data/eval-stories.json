@@ -1,0 +1,114 @@
+[
+  {
+    "id": "EVAL_SURESH",
+    "displayName": "Suresh K.",
+    "sector": "trades",
+    "rawStory": "Main electrician ka kaam karta hoon 4 saal se. Ghar ka wiring theek karta hoon, fan aur switch lagata hoon, short circuit bhi dhoondh leta hoon. Safety rules follow karta hoon, PPE pehnta hoon kaam ke time. Thoda Hindi aur Telugu dono bol leta hoon.",
+    "expectedSkillIds": [
+      "SKILL_ELECTRICAL_BASIC",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_SPOKEN_HINDI",
+      "SKILL_SPOKEN_TELUGU"
+    ]
+  },
+  {
+    "id": "EVAL_RAVI",
+    "displayName": "Ravi M.",
+    "sector": "trades",
+    "rawStory": "Naan bike mechanic ah velai pathen 5 varusham. Bike engine open panni theriyum, puncture podurathu, oil change pandrom. Customer kitta bike problem pathi pesuven nalla ah. Tamil mattum pesuven.",
+    "expectedSkillIds": [
+      "SKILL_TWO_WHEELER_REPAIR",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_SPOKEN_TAMIL"
+    ]
+  },
+  {
+    "id": "EVAL_MEENA",
+    "displayName": "Meena S.",
+    "sector": "trades",
+    "rawStory": "Main 6 saal se silai ka kaam karti hoon, blouse aur saree fall silti hoon ghar pe. Thoda kadhai bhi aata hai, zari work karti hoon shaadi ke kapdo pe. Hindi aur Tamil dono aata hai mujhe.",
+    "expectedSkillIds": [
+      "SKILL_TAILORING",
+      "SKILL_EMBROIDERY",
+      "SKILL_SPOKEN_HINDI",
+      "SKILL_SPOKEN_TAMIL"
+    ]
+  },
+  {
+    "id": "EVAL_LAKSHMI",
+    "displayName": "Lakshmi P.",
+    "sector": "care",
+    "rawStory": "Naan oru ayah ah velai pathutu iruken, 2 kulanthaigal paakuren. Kuzhandhaikku saapadu kudukurathu, vilayattu vaikurathu, school kootitu polrathu ellam pandren. Emergency na first aid theriyum enakku. Tamil nalla pesuven, konjam English theriyum.",
+    "expectedSkillIds": [
+      "SKILL_CHILDCARE",
+      "SKILL_FIRST_AID",
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ]
+  },
+  {
+    "id": "EVAL_RAJESH",
+    "displayName": "Rajesh N.",
+    "sector": "care",
+    "rawStory": "Main last 2 saal se ek buzurg dada ji ki dekhbhal karta hoon ghar pe. Unko nahlana, khana khilana, dawai time pe dena — sab karta hoon. Hindi bolta hoon, thoda English samajh leta hoon.",
+    "expectedSkillIds": [
+      "SKILL_ELDER_CARE",
+      "SKILL_SPOKEN_HINDI",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ]
+  },
+  {
+    "id": "EVAL_KARTHIK",
+    "displayName": "Karthik V.",
+    "sector": "logistics",
+    "rawStory": "Naan delivery boy ah velai pathen, bike la parcel kondu poven. Route ellam nalla theriyum enakku, address kandupudika mudiyum. Bike license iruku enakku. Tamil pesuven, Hindi konjam puriyum.",
+    "expectedSkillIds": [
+      "SKILL_DELIVERY_OPS",
+      "SKILL_ROUTE_PLANNING",
+      "SKILL_TWO_WHEELER_LICENCE",
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_SPOKEN_HINDI"
+    ]
+  },
+  {
+    "id": "EVAL_MANOJ",
+    "displayName": "Manoj D.",
+    "sector": "logistics",
+    "rawStory": "Main godown mein kaam karta hoon 3 saal se. Maal loading unloading karta hoon, stock ginta hoon, forklift bhi chala leta hoon thoda thoda. Challan aur delivery papers bhi banata hoon. Hindi bolta hoon.",
+    "expectedSkillIds": [
+      "SKILL_WAREHOUSE_OPS",
+      "SKILL_LOADING_UNLOADING",
+      "SKILL_FORKLIFT_OP",
+      "SKILL_DISPATCH_DOCS",
+      "SKILL_INVENTORY_MGMT",
+      "SKILL_SPOKEN_HINDI"
+    ]
+  },
+  {
+    "id": "EVAL_ANITHA",
+    "displayName": "Anitha R.",
+    "sector": "hospitality",
+    "rawStory": "Naan hotel la waiter ah velai pathutu iruken 2 varusham. Table serve pandrathu, order eduthukurathu, bill kodukurathu ellam pandren. Guest kitta polite ah pesuven. Tamil nalla pesuven, English konjam.",
+    "expectedSkillIds": [
+      "SKILL_TABLE_SERVICE",
+      "SKILL_ORDER_MANAGEMENT",
+      "SKILL_BILLING_MANUAL",
+      "SKILL_CUSTOMER_HANDLING",
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_SPOKEN_ENGLISH_BASIC"
+    ]
+  },
+  {
+    "id": "EVAL_VIGNESH",
+    "displayName": "Vignesh S.",
+    "sector": "hospitality",
+    "rawStory": "Main bakery counter pe kaam karta hoon last 1 saal se. Coffee bhi banata hoon jab order aata hai, cash counter sambhalta hoon. Tamil aur Hindi dono thoda thoda aata hai.",
+    "expectedSkillIds": [
+      "SKILL_BAKERY_COUNTER",
+      "SKILL_BARISTA",
+      "SKILL_CASH_HANDLING",
+      "SKILL_SPOKEN_TAMIL",
+      "SKILL_SPOKEN_HINDI"
+    ]
+  }
+]

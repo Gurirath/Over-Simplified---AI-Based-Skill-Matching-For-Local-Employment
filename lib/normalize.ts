@@ -125,19 +125,18 @@ export function normalizeSkillMention(input: string): NormalizationResult {
       // coordination" even though "order" changes the meaning. Reject the
       // match if any leftover token (input minus the alias's own tokens) is
       // discriminating for some OTHER skill. A leftover token nobody claims
-      // (e.g. "microsoft" in "Microsoft Excel") does not block the match.
+      // (e.g. "microsoft" in "Microsoft Excel") does not block the match —
+      // and neither does one the candidate skill ALSO owns via a different
+      // alias (e.g. "making" is BILLING_MANUAL's via "bill making", but
+      // it's also BARISTA's via "tea making", so it must not block "coffee
+      // making" -> BARISTA).
       let hijacked = false;
       for (const t of inputTokens) {
         if (entry.tokens.has(t)) continue;
         const owners = tokenOwners.get(t);
-        if (!owners) continue;
-        for (const owner of owners) {
-          if (owner !== entry.id) {
-            hijacked = true;
-            break;
-          }
-        }
-        if (hijacked) break;
+        if (!owners || owners.has(entry.id)) continue;
+        hijacked = true;
+        break;
       }
       if (hijacked) continue;
     }
@@ -169,6 +168,22 @@ export function normalizeSkillMention(input: string): NormalizationResult {
       overlapScore: best.score,
     };
   }
+
+  return { input, skillId: null, stage: "unmatched" };
+}
+
+/**
+ * Ablation variant for scripts/eval.ts (CLAUDE.md §12): only the exact-alias
+ * stage, none of exact-canonical / containment / token-overlap. Used to
+ * measure how much recall the taxonomy's alias list (and the fallback
+ * stages) actually buys over naive exact-string matching.
+ */
+export function normalizeSkillMentionExactAliasOnly(input: string): NormalizationResult {
+  const key = normalizeText(input);
+  if (!key) return { input, skillId: null, stage: "unmatched" };
+
+  const alias = aliasIndex.get(key);
+  if (alias) return { input, skillId: alias, stage: "exact_alias" };
 
   return { input, skillId: null, stage: "unmatched" };
 }

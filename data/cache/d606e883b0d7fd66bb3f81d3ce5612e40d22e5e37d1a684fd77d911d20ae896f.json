@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"motorcycle engine repair\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Bike engine open panni theriyum\"\n    },\n    {\n      \"rawSkillText\": \"tire puncture repair\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"puncture podurathu\"\n    },\n    {\n      \"rawSkillText\": \"vehicle maintenance\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"oil change pandrom\"\n    },\n    {\n      \"rawSkillText\": \"customer communication\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Customer kitta bike problem pathi pesuven\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Tamil mattum pesuven\"\n    },\n    {\n      \"rawSkillText\": \"motorcycle repair\",\n      \"tier\": \"implied\",\n      \"evidenceSpan\": \"bike mechanic ah velai pathen\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "EVAL_RAVI"
+}

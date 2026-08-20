@@ -3,6 +3,7 @@
     "id": "SKILL_CUSTOMER_HANDLING",
     "canonicalName": "Customer Handling",
     "aliases": [
+      "customer communication",
       "customer handle karna",
       "customer handling",
       "customer se baat karna",
@@ -1269,6 +1270,9 @@
       "bike repair",
       "gaadi theek karna",
       "mechanic",
+      "motorcycle engine repair",
+      "motorcycle mechanic",
+      "motorcycle repair",
       "scooter repair",
       "two wheeler repair"
     ],
@@ -1504,7 +1508,9 @@
     "id": "SKILL_ROUTE_PLANNING",
     "canonicalName": "Route Planning",
     "aliases": [
+      "address location",
       "delivery route",
+      "navigation",
       "route",
       "route planning",
       "trip planning"
@@ -1561,6 +1567,7 @@
       "delivery challan",
       "dispatch",
       "dispatch papers",
+      "documentation preparation",
       "e way bill",
       "gate pass"
     ],
@@ -1631,6 +1638,8 @@
       "budhon ki dekhbhal",
       "caretaker",
       "elder care",
+      "elderly assistance",
+      "elderly care",
       "home nurse",
       "old age care"
     ],
