@@ -61,7 +61,10 @@ async function callModel(userPrompt: string): Promise<string> {
   const requestBody = {
     system_instruction: { parts: [{ text: CANDIDATE_EXTRACTION_SYSTEM }] },
     contents: [{ role: "user", parts: [{ text: userPrompt }] }],
-    generationConfig: { responseMimeType: "application/json" },
+    generationConfig: {
+      responseMimeType: "application/json",
+      thinkingConfig: { thinkingLevel: "minimal" },
+    },
   };
 
   for (let attempt = 0; ; attempt++) {
