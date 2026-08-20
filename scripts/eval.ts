@@ -73,13 +73,20 @@ const PERSONA_SECTORS: Record<string, string> = {
   PERSONA_PRIYA: "hospitality",
 };
 
-const personas = (personasData as Persona[]).map((p) => ({
-  id: p.id,
-  displayName: p.displayName,
-  sector: PERSONA_SECTORS[p.id] ?? "unknown",
-  rawStory: p.rawStory,
-  expectedSkillIds: p.expectedSkillIds,
-}));
+// PERSONA_DEVI is excluded: her rawStory was written specifically to trigger
+// an implied claim gating jobs.json's warehouse/forklift listings (see
+// scripts/design-persona-4.ts), by inspecting the corpus first. Scoring the
+// extractor against a story engineered from the answer would inflate the
+// result. Keeps the eval at 12 stories, per CLAUDE.md §12.
+const personas = (personasData as Persona[])
+  .filter((p) => p.id !== "PERSONA_DEVI")
+  .map((p) => ({
+    id: p.id,
+    displayName: p.displayName,
+    sector: PERSONA_SECTORS[p.id] ?? "unknown",
+    rawStory: p.rawStory,
+    expectedSkillIds: p.expectedSkillIds,
+  }));
 
 const cases: EvalCase[] = [...personas, ...(evalStoriesData as EvalCase[])];
 

@@ -478,6 +478,18 @@ flatter the system.
 
 
 
+PERSONA_DEVI (the 4th demo persona, §11) is excluded from the eval. Her story
+
+was written after inspecting jobs.json specifically to trigger an implied
+
+claim that gates real listings — scoring the extractor against a story
+
+engineered from the answer would inflate the result. The eval stays at 12
+
+stories: the other 3 demo personas plus 9 hand-written ones.
+
+
+
 \---
 
 
