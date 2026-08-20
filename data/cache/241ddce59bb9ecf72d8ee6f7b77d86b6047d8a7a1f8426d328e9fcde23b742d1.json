@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"loading and unloading\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Maal loading unloading khud karti hoon\"\n    },\n    {\n      \"rawSkillText\": \"forklift operation\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"forklift bhi chalati hoon\"\n    },\n    {\n      \"rawSkillText\": \"occupational safety\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Safety rules follow karti hoon, PPE pehnti hoon\"\n    },\n    {\n      \"rawSkillText\": \"spoken Hindi\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Hindi bolti hoon\"\n    },\n    {\n      \"rawSkillText\": \"warehouse operations\",\n      \"tier\": \"implied\",\n      \"evidenceSpan\": \"godown mein kaam karti hoon\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "PERSONA_DEVI"
+}

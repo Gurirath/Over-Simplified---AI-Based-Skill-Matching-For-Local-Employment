@@ -442,7 +442,7 @@ Label it in the UI as an estimate.
 
 &#x20; The demo must run with no network. Hackathon wifi fails at the worst moment.
 
-\- Seed 3 demo personas with fixed IDs.
+\- Seed 4 demo personas with fixed IDs.
 
 \- Validate every LLM response against its JSON schema; retry once on malformed
 

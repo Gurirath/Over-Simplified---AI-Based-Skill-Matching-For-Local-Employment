@@ -1,9 +1,38 @@
 [
   {
+    "id": "PERSONA_DEVI",
+    "displayName": "Devi R.",
+    "age": 28,
+    "note": "PRIMARY DEMO PERSONA. Validated via scripts/design-persona-4.ts against jobs.json: 139 feasible. Pre-verification: 4 qualified. Post-verification (implied SKILL_WAREHOUSE_OPS claim confirmed): 10 qualified -> 6 newly qualified (all 6 warehouse/forklift listings gated on WAREHOUSE_OPS alongside skills she already holds). The only demo persona where confirming an implied claim changes the qualified count -- makes the micro-verification screen (CLAUDE.md section 5) actually do something in the demo.",
+    "location": { "lat": 12.92, "lng": 79.13 },
+    "areaName": "Vellore Town",
+    "rawStory": "Main last 4 saal se godown mein kaam karti hoon. Maal loading unloading khud karti hoon, forklift bhi chalati hoon jab zarurat padti hai. Safety rules follow karti hoon, PPE pehnti hoon kaam ke time. Hindi bolti hoon.",
+    "expectedSkillIds": [
+      "SKILL_WAREHOUSE_OPS",
+      "SKILL_LOADING_UNLOADING",
+      "SKILL_FORKLIFT_OP",
+      "SKILL_SAFETY_COMPLIANCE",
+      "SKILL_SPOKEN_HINDI"
+    ],
+    "constraints": {
+      "minMonthlySalary": 10000,
+      "maxCommuteMinutes": 45,
+      "availableModes": ["walk", "bus", "cycle"],
+      "availability": {
+        "earliestStartMin": 480,
+        "latestEndMin": 1110,
+        "minHoursPerWeek": 30,
+        "maxHoursPerWeek": 50,
+        "availableDays": [1, 2, 3, 4, 5, 6]
+      },
+      "credentials": []
+    }
+  },
+  {
     "id": "PERSONA_KAVITHA",
     "displayName": "Kavitha R.",
     "age": 26,
-    "note": "PRIMARY DEMO PERSONA. Validated via scripts/check-personas.ts against jobs.json: 250 corpus -> 58 feasible. Pre-verification: 2 qualified, 4 near-miss. Post-verification (all implied claims confirmed): 2 qualified, 5 near-miss. Best bundle (same pre/post): Billing Software / POS + Product Knowledge, 35h, +8 jobs, 2.29 jobs per 10h, median salary Rs9,750 -> Rs13,000.",
+    "note": "RETAIL PERSONA. Validated via scripts/check-personas.ts against jobs.json: 250 corpus -> 58 feasible. Pre-verification: 2 qualified, 4 near-miss. Post-verification (all implied claims confirmed): 2 qualified, 5 near-miss. Best bundle (same pre/post): Billing Software / POS + Product Knowledge, 35h, +8 jobs, 2.29 jobs per 10h, median salary Rs9,750 -> Rs13,000.",
     "location": { "lat": 12.9698, "lng": 79.1325 },
     "areaName": "Katpadi",
     "rawStory": "Main apne father ki provision shop mein help karti hoon last 3 years se. Customers ko handle karti hoon, unko saman dikhati hoon, rate batati hoon. Stock register maintain karti hoon aur bill bhi khud likhti hoon. Cash counter pe bhi baithti hoon, GPay se payment leti hoon. Tamil aur Hindi dono bol leti hoon. Computer nahi aata par phone theek se chala leti hoon.",
