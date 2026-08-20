@@ -350,3 +350,25 @@ export interface EvalReport {
   f1: number;
   casesRun: number;
 }
+
+// ─────────────────────────────────────────────────────────────
+// 9. EMPLOYER GEOGRAPHY  (data/employers.json — NEW, added for lib/geography.ts)
+// ─────────────────────────────────────────────────────────────
+//
+// NEW TYPE — flagging per CLAUDE.md §13.1: three other people may be coding
+// against this file. `Employer` is real OpenStreetMap business-location data
+// (scripts/fetch-employers.ts, fetched once and committed — see CLAUDE.md
+// §11, never queried live). These are BUSINESS LOCATIONS, not job vacancies:
+// no salary, no shift, no requiredSkills. Do not render them as openings.
+
+/** A real business location sourced from OpenStreetMap. Not a vacancy. */
+export interface Employer {
+  /** e.g. "OSM_NODE_123456789" — stable, traceable back to the source OSM element. */
+  id: string;
+  name: string;
+  /** The raw OSM tag that matched, e.g. "shop=bakery", "amenity=pharmacy". */
+  osmType: string;
+  lat: number;
+  lng: number;
+  employerType: EmployerType;
+}

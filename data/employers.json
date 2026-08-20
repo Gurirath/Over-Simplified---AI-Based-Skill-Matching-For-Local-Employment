@@ -1,0 +1,274 @@
+[
+  {
+    "id": "OSM_NODE_10012744271",
+    "name": "Vellore Kitchen",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9482665,
+    "lng": 79.1373947,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_10030875228",
+    "name": "The Vellore Kitchen",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9497671,
+    "lng": 79.1374152,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_10048469117",
+    "name": "Santhi Bakery",
+    "osmType": "shop=bakery",
+    "lat": 12.9500278,
+    "lng": 79.1374551,
+    "employerType": "bakery"
+  },
+  {
+    "id": "OSM_NODE_1064537779",
+    "name": "Sanjay Shop (Benzo)",
+    "osmType": "shop=convenience",
+    "lat": 12.9727497,
+    "lng": 79.1592767,
+    "employerType": "kirana"
+  },
+  {
+    "id": "OSM_NODE_1065288301",
+    "name": "Eagle Hairdresser",
+    "osmType": "shop=hairdresser",
+    "lat": 12.9702639,
+    "lng": 79.1543561,
+    "employerType": "salon"
+  },
+  {
+    "id": "OSM_NODE_1079605259",
+    "name": "Canteen",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9705339,
+    "lng": 79.1544609,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_10833427379",
+    "name": "MRF Tyres",
+    "osmType": "shop=tyres",
+    "lat": 12.9342809,
+    "lng": 79.1431851,
+    "employerType": "auto_workshop"
+  },
+  {
+    "id": "OSM_NODE_10946008047",
+    "name": "New Punjabi Family Dhaba",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9679765,
+    "lng": 79.1761873,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_10946008048",
+    "name": "Nandini Restaurant",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9676145,
+    "lng": 79.1745868,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_10980490841",
+    "name": "KFC",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9604586,
+    "lng": 79.1370962,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_12192834701",
+    "name": "Street Bites",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9748538,
+    "lng": 79.1641158,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14023423026",
+    "name": "Darling SPL Mess",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9735736,
+    "lng": 79.1642595,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14023423027",
+    "name": "PR Caterers",
+    "osmType": "amenity=fast_food",
+    "lat": 12.974483,
+    "lng": 79.1643071,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14040669644",
+    "name": "Darling",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9733859,
+    "lng": 79.1642661,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14040669645",
+    "name": "PR Caterers Special Mess",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9742551,
+    "lng": 79.1643449,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14045288875",
+    "name": "Food Park",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9724878,
+    "lng": 79.1619766,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14048216930",
+    "name": "Liv Cafeteria",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9707195,
+    "lng": 79.1659566,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14048795151",
+    "name": "Co-operative Fair Price Shop",
+    "osmType": "shop=convenience",
+    "lat": 12.9886011,
+    "lng": 79.1337908,
+    "employerType": "kirana"
+  },
+  {
+    "id": "OSM_NODE_14050747210",
+    "name": "McKingstown at Katpadi",
+    "osmType": "shop=hairdresser",
+    "lat": 12.9669677,
+    "lng": 79.1597984,
+    "employerType": "salon"
+  },
+  {
+    "id": "OSM_NODE_14070559047",
+    "name": "Saravana Medical",
+    "osmType": "amenity=pharmacy",
+    "lat": 12.9712642,
+    "lng": 79.1608923,
+    "employerType": "pharmacy"
+  },
+  {
+    "id": "OSM_NODE_14074817509",
+    "name": "Apples Fruit Zone",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9695641,
+    "lng": 79.1573092,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14074817511",
+    "name": "Saravana Pharmacy",
+    "osmType": "amenity=pharmacy",
+    "lat": 12.9728395,
+    "lng": 79.15834,
+    "employerType": "pharmacy"
+  },
+  {
+    "id": "OSM_NODE_14074817512",
+    "name": "Sri Rajarajeshwari Catering Services",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9725333,
+    "lng": 79.1622158,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_14091407083",
+    "name": "Sri Sabari Caterers",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9709917,
+    "lng": 79.1660049,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_1619805362",
+    "name": "Food Park",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9721701,
+    "lng": 79.1579962,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_4693434967",
+    "name": "Hundreds heritage",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9501757,
+    "lng": 79.1391475,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_NODE_4693434974",
+    "name": "Medical store, Vellore agri producers co-operative society",
+    "osmType": "amenity=pharmacy",
+    "lat": 12.9497376,
+    "lng": 79.1414279,
+    "employerType": "pharmacy"
+  },
+  {
+    "id": "OSM_NODE_6985048918",
+    "name": "Lakme Salon",
+    "osmType": "shop=hairdresser",
+    "lat": 12.9330272,
+    "lng": 79.1389342,
+    "employerType": "salon"
+  },
+  {
+    "id": "OSM_NODE_7126102185",
+    "name": "Apollo Pharmacy",
+    "osmType": "amenity=pharmacy",
+    "lat": 12.9499659,
+    "lng": 79.1369603,
+    "employerType": "pharmacy"
+  },
+  {
+    "id": "OSM_NODE_7526752747",
+    "name": "Rajan medicals",
+    "osmType": "amenity=pharmacy",
+    "lat": 12.9502024,
+    "lng": 79.1375004,
+    "employerType": "pharmacy"
+  },
+  {
+    "id": "OSM_NODE_956394098",
+    "name": "Enzo",
+    "osmType": "shop=convenience",
+    "lat": 12.9724576,
+    "lng": 79.1588679,
+    "employerType": "kirana"
+  },
+  {
+    "id": "OSM_WAY_1543127073",
+    "name": "Quick Bites",
+    "osmType": "amenity=fast_food",
+    "lat": 12.9729145,
+    "lng": 79.16391,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_WAY_556538991",
+    "name": "Food Court",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9700212,
+    "lng": 79.1589814,
+    "employerType": "hotel"
+  },
+  {
+    "id": "OSM_WAY_556538993",
+    "name": "Food Court",
+    "osmType": "amenity=restaurant",
+    "lat": 12.9701601,
+    "lng": 79.1589587,
+    "employerType": "hotel"
+  }
+]
