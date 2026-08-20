@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"document management\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"maintain all the files and records\"\n    },\n    {\n      \"rawSkillText\": \"data entry\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"enter details in the computer\"\n    },\n    {\n      \"rawSkillText\": \"typing\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"type letters\"\n    },\n    {\n      \"rawSkillText\": \"Microsoft Excel\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"basic Excel, I can make sheets with totals\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"speak Tamil\"\n    },\n    {\n      \"rawSkillText\": \"spoken English\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"some English\"\n    },\n    {\n      \"rawSkillText\": \"office administration\",\n      \"tier\": \"implied\",\n      \"evidenceSpan\": \"worked in a small transport office\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "PERSONA_RAMESH"
+}

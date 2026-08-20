@@ -1,0 +1,6 @@
+{
+  "raw": "{\n  \"extractions\": [\n    {\n      \"rawSkillText\": \"cooking\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"cooking konjam theriyum\"\n    },\n    {\n      \"rawSkillText\": \"catering assistance\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"Amma oda catering ku help panniruken\"\n    },\n    {\n      \"rawSkillText\": \"event setup\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"plates arrange panrathu\"\n    },\n    {\n      \"rawSkillText\": \"order coordination\",\n      \"tier\": \"demonstrated\",\n      \"evidenceSpan\": \"order paarthuka\"\n    },\n    {\n      \"rawSkillText\": \"cleaning\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"cleaning ellam\"\n    },\n    {\n      \"rawSkillText\": \"spoken Tamil\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"Tamil pesuven\"\n    },\n    {\n      \"rawSkillText\": \"spoken English\",\n      \"tier\": \"stated\",\n      \"evidenceSpan\": \"English konjam\"\n    }\n  ]\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "candidate-extraction",
+  "personaId": "PERSONA_PRIYA"
+}
