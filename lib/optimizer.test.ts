@@ -5,6 +5,7 @@ import {
   pruneSkillUniverse,
   recommendSkillBundles,
   computeNearMissFrontier,
+  computeNearMissBuckets,
 } from "./optimizer";
 import type { Job } from "./types";
 
@@ -134,6 +135,53 @@ describe("computeNearMissFrontier", () => {
     const jobs = [makeJob({ requiredSkills: ["SKILL_A", "SKILL_B", "SKILL_C"] })];
 
     expect(computeNearMissFrontier(jobs, new Set())).toEqual([]);
+  });
+});
+
+describe("computeNearMissBuckets", () => {
+  it("buckets jobs by exactly 1, exactly 2, and 3+ missing required skills", () => {
+    const jobs = [
+      makeJob({ id: "JOB_1AWAY", requiredSkills: ["SKILL_A", "SKILL_B"] }),
+      makeJob({ id: "JOB_2AWAY", requiredSkills: ["SKILL_A", "SKILL_B", "SKILL_C"] }),
+      makeJob({ id: "JOB_3AWAY", requiredSkills: ["SKILL_A", "SKILL_B", "SKILL_C", "SKILL_D"] }),
+      makeJob({ id: "JOB_QUALIFIED", requiredSkills: ["SKILL_A"] }),
+    ];
+
+    const buckets = computeNearMissBuckets(jobs, new Set(["SKILL_A"]));
+
+    expect(buckets).toEqual([
+      { bucket: "1_skill", jobIds: ["JOB_1AWAY"] },
+      { bucket: "2_skills", jobIds: ["JOB_2AWAY"] },
+      { bucket: "3_plus_skills", jobIds: ["JOB_3AWAY"] },
+    ]);
+  });
+
+  it("agrees with computeNearMissFrontier on the 1-skill bucket", () => {
+    const jobs = [
+      makeJob({ id: "JOB_NEAR", requiredSkills: ["SKILL_A", "SKILL_B"] }),
+      makeJob({ id: "JOB_FAR", requiredSkills: ["SKILL_A", "SKILL_B", "SKILL_C"] }),
+    ];
+    const held = new Set(["SKILL_A"]);
+
+    const frontier = computeNearMissFrontier(jobs, held);
+    const buckets = computeNearMissBuckets(jobs, held);
+    const oneSkillBucket = buckets.find((b) => b.bucket === "1_skill")!;
+
+    expect(oneSkillBucket.jobIds).toEqual(frontier.map((f) => f.jobId));
+  });
+
+  it("omits fully-qualified jobs from every bucket", () => {
+    const jobs = [makeJob({ requiredSkills: ["SKILL_A"] })];
+
+    const buckets = computeNearMissBuckets(jobs, new Set(["SKILL_A"]));
+
+    expect(buckets.every((b) => b.jobIds.length === 0)).toBe(true);
+  });
+
+  it("returns all three buckets, even when empty, in a stable order", () => {
+    const buckets = computeNearMissBuckets([], new Set());
+
+    expect(buckets.map((b) => b.bucket)).toEqual(["1_skill", "2_skills", "3_plus_skills"]);
   });
 });
 

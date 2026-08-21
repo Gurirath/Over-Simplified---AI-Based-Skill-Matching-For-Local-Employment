@@ -7,10 +7,10 @@
 import type { GeoPoint, TransportMode, CommuteEstimate } from "./types";
 
 const EARTH_RADIUS_KM = 6371;
-const ROAD_FACTOR = 1.35;
-const FIRST_LAST_MILE_MIN = 8;
+export const ROAD_FACTOR = 1.35;
+export const FIRST_LAST_MILE_MIN = 8;
 
-const MODE_SPEED_KMH: Record<TransportMode, number> = {
+export const MODE_SPEED_KMH: Record<TransportMode, number> = {
   walk: 4.5,
   cycle: 12,
   bus: 16,

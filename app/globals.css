@@ -12,15 +12,111 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /*
+     * Single fixed accent colour (CLAUDE.md §7: monochrome, one accent,
+     * used sparingly). Keep in sync with ACCENT_HEX in
+     * app/components/ThemeContext.tsx. No dark-mode variant, no presets —
+     * both were cut (CLAUDE.md §9 item 7, not lifted by the §16 i18n
+     * carve-out).
+     */
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --accent-light: #eff6ff;
+    --accent-border: #bfdbfe;
+    --accent-dark: #1e3a8a;
+    --accent-fg: #1d4ed8;
+    --accent-solid-fg: #ffffff;
+
+    --bg-page: #fafafa;
+    --card-bg: #ffffff;
+    --card-muted: #f4f4f5;
+    --card-border: #e4e4e7;
+    --fg-primary: #09090b;
+    --fg-muted: #71717a;
+    --fg-subtle: #a1a1aa;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  }
+
+  code,
+  pre,
+  .font-mono {
+    font-family: var(--font-mono), monospace;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom range slider styling for the Opportunity Simulator sliders. */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #e4e4e7;
+  border-radius: 9999px;
+  height: 6px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #18181b;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+input[type="range"]:active::-webkit-slider-thumb,
+input[type="range"]:focus::-webkit-slider-thumb {
+  transform: scale(1.15);
+  background: var(--accent) !important;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #18181b;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+/* Leaflet map styling fixes for a clean, monochrome map. */
+.leaflet-container {
+  font-family: var(--font-sans), sans-serif !important;
+  background-color: #f4f4f5 !important;
+  z-index: 1;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid #e4e4e7 !important;
+  padding: 0 !important;
+  background: #ffffff !important;
+  color: #18181b !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: white !important;
+  border: 1px solid #e4e4e7 !important;
 }

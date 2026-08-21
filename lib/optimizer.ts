@@ -154,3 +154,41 @@ export function computeNearMissFrontier(
 
   return frontier;
 }
+
+/**
+ * UI-facing bucketing of feasible jobs by how many required skills are
+ * missing: exactly 1, exactly 2, or 3+. Built directly on missingSkills() —
+ * a strict generalization of computeNearMissFrontier's "exactly 1" frontier
+ * into three display buckets for the near-miss chart. Does not replace or
+ * alter computeNearMissFrontier, which remains the canonical single-skill
+ * frontier used elsewhere.
+ */
+export type NearMissBucketSize = "1_skill" | "2_skills" | "3_plus_skills";
+
+export interface NearMissBucket {
+  bucket: NearMissBucketSize;
+  jobIds: string[];
+}
+
+export function computeNearMissBuckets(
+  feasibleJobs: Job[],
+  heldSkillIds: Set<string>
+): NearMissBucket[] {
+  const buckets: Record<NearMissBucketSize, string[]> = {
+    "1_skill": [],
+    "2_skills": [],
+    "3_plus_skills": [],
+  };
+
+  for (const job of feasibleJobs) {
+    const missingCount = missingSkills(job, heldSkillIds).length;
+    if (missingCount === 1) buckets["1_skill"].push(job.id);
+    else if (missingCount === 2) buckets["2_skills"].push(job.id);
+    else if (missingCount >= 3) buckets["3_plus_skills"].push(job.id);
+  }
+
+  return (["1_skill", "2_skills", "3_plus_skills"] as NearMissBucketSize[]).map((bucket) => ({
+    bucket,
+    jobIds: buckets[bucket],
+  }));
+}

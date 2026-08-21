@@ -380,9 +380,9 @@ Even if asked casually, even if it seems like an obvious addition:
 
 
 
-1\. Authentication or user accounts — use a persona switcher dropdown
+1\. ~~Authentication or user accounts — use a persona switcher dropdown~~ — LIFTED, see §15
 
-2\. Any database or ORM
+2\. ~~Any database or ORM~~ — LIFTED (partially), see §15
 
 3\. Real map / routing / geocoding APIs — use the haversine estimator
 
@@ -392,13 +392,143 @@ Even if asked casually, even if it seems like an obvious addition:
 
 6\. Course recommendations or learning-platform integrations
 
-7\. Mobile app, dark mode toggle, i18n framework, analytics
+7\. Mobile app, ~~i18n framework,~~ dark mode toggle, analytics — i18n LIFTED
+
+&#x20;  (2026-08-21, see §16); dark mode toggle and analytics still stand
 
 8\. Email, notifications, or anything requiring a third-party account
 
 
 
-Ask before adding any dependency not already in package.json.
+Items 3-6 and 8 still stand without exception. Item 7 stands except for the
+
+i18n carve-out below. Ask before adding any dependency not already in
+
+package.json.
+
+
+
+\---
+
+
+
+\## 15. Amendment (2026-08-21): auth and persistence
+
+
+
+Cut-list items 1 and 2 above are lifted for the frontend merge from
+
+`reach-frontend` (a separate Vite UI being folded into this app). This is a
+
+deliberate, scoped exception, not a reopening of the whole cut list.
+
+
+
+\*\*What changed and why:\*\* the merged product needs role-based login (worker
+
+vs employer) and jobs posted through the UI need to persist across requests,
+
+which a build-time JSON import cannot do.
+
+
+
+\*\*What this does NOT mean:\*\*
+
+
+
+\- No ORM, no external database service, no cloud auth provider. "Database"
+
+&#x20; is lifted only as far as a server-side JSON file store
+
+&#x20; (`lib/store.ts`, writing to `data/runtime/`). This is still not a real
+
+&#x20; database — no query engine, no migrations, no concurrent-write safety
+
+&#x20; beyond what a single-process JSON read/write gives you.
+
+\- Auth is demo-grade: name + 4-digit PIN, hashed, session in an httpOnly
+
+&#x20; cookie. It is explicitly not production security and must be labelled as
+
+&#x20; such in code. No third-party auth provider, no OAuth, no email flows
+
+&#x20; (item 8 still stands).
+
+\- `data/jobs.json` (the seed corpus of 250 jobs) stays immutable. Runtime
+
+&#x20; writes go to `data/runtime/jobs.json` and `data/runtime/candidates.json`
+
+&#x20; only. The matching engine reads the union of seed + runtime, never
+
+&#x20; mutates the seed. This preserves the demo numbers (Devi: 139 feasible,
+
+&#x20; 4 -> 10 qualified) as a fixed reference point.
+
+\- The persona-switcher dropdown from item 1 is NOT removed — it survives as
+
+&#x20; a "try a sample profile" shortcut on the worker side of the new login
+
+&#x20; flow.
+
+
+
+Items 3-8 of the cut list are unaffected and remain in force.
+
+
+
+\---
+
+
+
+\## 16. Amendment (2026-08-21): i18n
+
+
+
+Cut-list item 7's "i18n framework" clause is lifted, scoped narrowly to the
+
+frontend merge. Dark mode toggle and analytics — the other two clauses of
+
+item 7 — are NOT lifted and still stand, along with items 3-6 and 8.
+
+
+
+\*\*Why:\*\* candidates describe their work history in mixed Hindi-English
+
+phrasing (CLAUDE.md §6, §12) — multilingual input is core to the product,
+
+not a nice-to-have UI layer. The merged UI ships `reach-frontend`'s
+
+`i18n.ts` (UI chrome translated into English, Spanish, Hindi, French,
+
+Swahili) largely as-is.
+
+
+
+\*\*What this does NOT mean:\*\*
+
+
+
+\- The per-skill translation dictionary in `i18n.ts`
+
+&#x20; (`SKILL_TRANSLATIONS`, `getLocalizedSkillName`) is keyed on
+
+&#x20; `reach-frontend`'s old 40-skill regex taxonomy, not our 113-skill
+
+&#x20; `skills.json`. It does not carry over. Skill names in the merged UI
+
+&#x20; render from `getSkill(id).canonicalName` (English only) rather than
+
+&#x20; through that dictionary — canonical skill names are not translated
+
+&#x20; into all five languages. Only UI chrome (headings, labels, buttons) is
+
+&#x20; localized.
+
+\- This is not a general "translate everything" mandate. Extraction
+
+&#x20; (`lib/normalize.ts`) already handles Hinglish surface forms at the
+
+&#x20; alias level per §6; i18n is a separate, UI-only layer on top of that.
 
 
 

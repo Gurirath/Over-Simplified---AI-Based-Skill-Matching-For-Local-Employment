@@ -1,0 +1,5 @@
+{
+  "raw": "{\n  \"title\": \"Breakfast Cook\",\n  \"employerType\": \"hotel\",\n  \"rawRequiredSkills\": [\n    \"breakfast food preparation\",\n    \"hygiene basics\"\n  ],\n  \"rawPreferredSkills\": [],\n  \"salaryMin\": 12000,\n  \"salaryMax\": 16000,\n  \"shift\": {\n    \"startMin\": 360,\n    \"endMin\": 840,\n    \"days\": [1, 2, 3, 4, 5, 6]\n  },\n  \"hoursPerWeek\": 48,\n  \"minExperienceMonths\": 0,\n  \"hardEligibility\": []\n}",
+  "model": "gemini-3.5-flash",
+  "kind": "job-extraction"
+}
